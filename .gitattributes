@@ -1,0 +1,5 @@
+# Count SQL in the language stats (GitHub skips it by default)
+*.sql linguist-detectable=true
+
+# The family reports are generated output, not hand-written code
+reports/** linguist-generated=true
