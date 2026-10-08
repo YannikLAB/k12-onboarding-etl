@@ -1,0 +1,18 @@
+district,source_file,issue,rows_affected,action_taken,question_for_district
+A,students.csv,Exact duplicate rows,3,excluded (kept one copy),
+A,students.csv,Same student listed twice with different birth dates,1,"kept one row, flagged",Student(s) 131384 appear twice with different birth dates. Which is correct?
+A,students.csv,Impossible or placeholder birth date,2,flagged (kept student),"Birth dates for student(s) 132581, 138406 look like placeholders or typos. What are the correct dates?"
+A,attendance.csv,"Attendance codes in lowercase (""a"" instead of ""A"")",334,fixed (converted to uppercase),
+A,attendance.csv,Recorded outside enrollment dates,12,excluded (kept in rejected_a_attendance),"Absences were recorded after student(s) 138385, 127903 withdrew. Did they re-enroll, or should these be removed?"
+A,attendance.csv,Recorded on a non-school day,3,excluded (kept in rejected_a_attendance),"Attendance was recorded on 11/27/2025, which your calendar lists as no school. Entry error?"
+A,attendance.csv,Student not in students.csv,22,excluded (kept in rejected_a_attendance),Attendance exists for student(s) 139204 but there is no enrollment record. Is an enrollment missing?
+A,stored_grades.csv,Blank grade (not posted),5,"flagged (shown as ""not posted yet""; not counted as a failure)","Grades are blank for 5 course sections in S2. Not yet posted, or missing from the export?"
+B,enrollment.csv,"Grade level written inconsistently (""06"", ""6"", ""Gr 6"")",17,fixed (converted to a number),
+B,enrollment.csv,"Name not in ""Last, First"" format",3,"fixed (read as ""First Last""), flagged","Names for student(s) 107192, 121592, 122266 are not in ""Last, First"" format. Please confirm first and last names."
+B,enrollment.csv,Missing birth date,2,flagged (kept student),"Birth dates are missing for student(s) 118316, 122409."
+B,attendance_monthly.csv,School name spelled differently from the official name,86,fixed (mapped to official school),
+B,attendance_monthly.csv,Same student and month appears twice (duplicate load),84,excluded (kept one copy),Rows for 2026-02 at Pinon Ridge HS; 2026-02 at Pinon Ridge High School; 2026-02 at Piñon Ridge High School appear twice. Was that month's file loaded twice?
+B,attendance_monthly.csv,Absences exceed days enrolled,2,"flagged (student's attendance marked ""needs review"")","For student(s) 118799 (2026-02), 132692 (2025-09), absences are higher than days enrolled. What are the correct numbers?"
+B,grades.csv,Score above 100%,4,kept (treated as an A; assumed extra credit),"Some scores are above 100% (104.0, 101.2, 102.3, 101.3). Is extra credit allowed, or are these entry errors?"
+B,grades.csv,Blank score (not posted),4,"flagged (shown as ""not posted yet""; not counted as a failure)","Scores are blank for 4 course sections. Not yet posted, or missing from the export?"
+A+B,students.csv / enrollment.csv,Same student number used in both districts (different students),7,handled (keys include a district prefix),

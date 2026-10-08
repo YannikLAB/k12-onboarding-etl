@@ -1,0 +1,1789 @@
+studentNumber,courseCode,courseName,term,score,creditsEarned
+136558,ENG-11,English 11,Sem 1,61.6,0.5
+136558,ENG-11,English 11,Sem 2,61.3,0.5
+136558,MATH-11,Algebra II,Sem 1,56.8,0
+136558,MATH-11,Algebra II,Sem 2,62.6,0.5
+136558,SCI-11,Physics,Sem 1,66.5,0.5
+136558,SCI-11,Physics,Sem 2,74.9,0.5
+136558,SS-11,U.S. History,Sem 1,78.0,0.5
+136558,SS-11,U.S. History,Sem 2,78.6,0.5
+136558,ART2-11,Ceramics,Sem 1,75.1,0.5
+136558,ART2-11,Ceramics,Sem 2,58.2,0
+136558,CS-11,Intro to Computer Science,Sem 1,66.6,0.5
+136558,CS-11,Intro to Computer Science,Sem 2,77.0,0.5
+107954,ENG-8,English 8,Sem 1,64.0,
+107954,ENG-8,English 8,Sem 2,72.3,
+107954,MATH-8,Math 8,Sem 1,70.2,
+107954,MATH-8,Math 8,Sem 2,70.3,
+107954,SCI-8,Science 8,Sem 1,69.3,
+107954,SCI-8,Science 8,Sem 2,73.0,
+107954,SS-8,Social Studies 8,Sem 1,75.7,
+107954,SS-8,Social Studies 8,Sem 2,66.6,
+107954,PE-8,Physical Education 8,Sem 1,69.1,
+107954,PE-8,Physical Education 8,Sem 2,68.8,
+107954,BAND-8,Band,Sem 1,69.2,
+107954,BAND-8,Band,Sem 2,67.7,
+100926,ENG-10,English 10,Sem 1,80.9,0.5
+100926,ENG-10,English 10,Sem 2,68.8,0.5
+100926,MATH-10,Geometry,Sem 1,74.9,0.5
+100926,MATH-10,Geometry,Sem 2,77.4,0.5
+100926,SCI-10,Chemistry,Sem 1,75.0,0.5
+100926,SCI-10,Chemistry,Sem 2,74.9,0.5
+100926,SS-10,World Geography,Sem 1,77.4,0.5
+100926,SS-10,World Geography,Sem 2,79.4,0.5
+100926,CS-10,Intro to Computer Science,Sem 1,75.0,0.5
+100926,CS-10,Intro to Computer Science,Sem 2,78.4,0.5
+100926,HLTH-10,Health,Sem 1,66.5,0.5
+100926,HLTH-10,Health,Sem 2,83.9,0.5
+108838,ENG-9,English 9,Sem 1,81.4,0.5
+108838,ENG-9,English 9,Sem 2,65.3,0.5
+108838,MATH-9,Algebra I,Sem 1,81.6,0.5
+108838,MATH-9,Algebra I,Sem 2,78.1,0.5
+108838,SCI-9,Biology,Sem 1,76.2,0.5
+108838,SCI-9,Biology,Sem 2,71.9,0.5
+108838,SS-9,World History,Sem 1,73.4,0.5
+108838,SS-9,World History,Sem 2,76.9,0.5
+108838,HLTH-9,Health,Sem 1,74.3,0.5
+108838,HLTH-9,Health,Sem 2,70.2,0.5
+108838,ORCH-9,Orchestra,Sem 1,81.6,0.5
+108838,ORCH-9,Orchestra,Sem 2,67.9,0.5
+123160,ENG-9,English 9,Sem 1,74.0,0.5
+123160,ENG-9,English 9,Sem 2,75.9,0.5
+123160,MATH-9,Algebra I,Sem 1,83.9,0.5
+123160,MATH-9,Algebra I,Sem 2,83.5,0.5
+123160,SCI-9,Biology,Sem 1,93.1,0.5
+123160,SCI-9,Biology,Sem 2,85.7,0.5
+123160,SS-9,World History,Sem 1,84.8,0.5
+123160,SS-9,World History,Sem 2,79.9,0.5
+123160,ART2-9,Ceramics,Sem 1,79.7,0.5
+123160,ART2-9,Ceramics,Sem 2,86.7,0.5
+123160,PHOT-9,Photography,Sem 1,78.3,0.5
+123160,PHOT-9,Photography,Sem 2,87.9,0.5
+125525,ENG-12,English 12,Sem 1,79.8,0.5
+125525,ENG-12,English 12,Sem 2,92.1,0.5
+125525,MATH-12,Pre-Calculus,Sem 1,91.0,0.5
+125525,MATH-12,Pre-Calculus,Sem 2,85.4,0.5
+125525,SCI-12,Environmental Science,Sem 1,78.6,0.5
+125525,SCI-12,Environmental Science,Sem 2,86.5,0.5
+125525,SS-12,Government & Economics,Sem 1,78.0,0.5
+125525,SS-12,Government & Economics,Sem 2,77.7,0.5
+125525,PHOT-12,Photography,Sem 1,81.5,0.5
+125525,PHOT-12,Photography,Sem 2,79.9,0.5
+125525,ART2-12,Ceramics,Sem 1,83.6,0.5
+125525,ART2-12,Ceramics,Sem 2,83.2,0.5
+124078,ENG-6,English 6,Sem 1,61.9,
+124078,ENG-6,English 6,Sem 2,59.6,
+124078,MATH-6,Math 6,Sem 1,71.0,
+124078,MATH-6,Math 6,Sem 2,67.4,
+124078,SCI-6,Science 6,Sem 1,60.4,
+124078,SCI-6,Science 6,Sem 2,57.7,
+124078,SS-6,Social Studies 6,Sem 1,78.7,
+124078,SS-6,Social Studies 6,Sem 2,71.3,
+124078,PE-6,Physical Education 6,Sem 1,62.5,
+124078,PE-6,Physical Education 6,Sem 2,56.2,
+124078,SPAN-6,Spanish I,Sem 1,54.1,
+124078,SPAN-6,Spanish I,Sem 2,84.2,
+125539,ENG-9,English 9,Sem 1,88.3,0.5
+125539,ENG-9,English 9,Sem 2,82.8,0.5
+125539,MATH-9,Algebra I,Sem 1,77.8,0.5
+125539,MATH-9,Algebra I,Sem 2,79.3,0.5
+125539,SCI-9,Biology,Sem 1,82.7,0.5
+125539,SCI-9,Biology,Sem 2,77.1,0.5
+125539,SS-9,World History,Sem 1,89.8,0.5
+125539,SS-9,World History,Sem 2,68.6,0.5
+125539,HLTH-9,Health,Sem 1,82.9,0.5
+125539,HLTH-9,Health,Sem 2,79.7,0.5
+125539,CS-9,Intro to Computer Science,Sem 1,83.0,0.5
+125539,CS-9,Intro to Computer Science,Sem 2,87.1,0.5
+130992,ENG-6,English 6,Sem 1,66.6,
+130992,ENG-6,English 6,Sem 2,59.3,
+130992,MATH-6,Math 6,Sem 1,74.2,
+130992,MATH-6,Math 6,Sem 2,68.1,
+130992,SCI-6,Science 6,Sem 1,64.8,
+130992,SCI-6,Science 6,Sem 2,66.2,
+130992,SS-6,Social Studies 6,Sem 1,71.6,
+130992,SS-6,Social Studies 6,Sem 2,62.8,
+130992,PE-6,Physical Education 6,Sem 1,60.0,
+130992,PE-6,Physical Education 6,Sem 2,66.7,
+130992,BAND-6,Band,Sem 1,63.5,
+130992,BAND-6,Band,Sem 2,68.9,
+131306,ENG-9,English 9,Sem 1,84.4,0.5
+131306,ENG-9,English 9,Sem 2,90.1,0.5
+131306,MATH-9,Algebra I,Sem 1,88.8,0.5
+131306,MATH-9,Algebra I,Sem 2,77.0,0.5
+131306,SCI-9,Biology,Sem 1,77.6,0.5
+131306,SCI-9,Biology,Sem 2,92.4,0.5
+131306,SS-9,World History,Sem 1,82.5,0.5
+131306,SS-9,World History,Sem 2,88.2,0.5
+131306,PHOT-9,Photography,Sem 1,76.8,0.5
+131306,PHOT-9,Photography,Sem 2,89.8,0.5
+131306,ART2-9,Ceramics,Sem 1,94.7,0.5
+131306,ART2-9,Ceramics,Sem 2,79.0,0.5
+100071,ENG-12,English 12,Sem 1,83.4,0.5
+100071,ENG-12,English 12,Sem 2,89.0,0.5
+100071,MATH-12,Pre-Calculus,Sem 1,76.0,0.5
+100071,MATH-12,Pre-Calculus,Sem 2,92.5,0.5
+100071,SCI-12,Environmental Science,Sem 1,95.0,0.5
+100071,SCI-12,Environmental Science,Sem 2,84.9,0.5
+100071,SS-12,Government & Economics,Sem 1,77.3,0.5
+100071,SS-12,Government & Economics,Sem 2,82.9,0.5
+100071,ART2-12,Ceramics,Sem 1,75.9,0.5
+100071,ART2-12,Ceramics,Sem 2,85.6,0.5
+100071,SPAN-12,Spanish II,Sem 1,82.2,0.5
+100071,SPAN-12,Spanish II,Sem 2,90.0,0.5
+117325,ENG-8,English 8,Sem 1,66.2,
+117325,ENG-8,English 8,Sem 2,68.9,
+117325,MATH-8,Math 8,Sem 1,60.5,
+117325,MATH-8,Math 8,Sem 2,70.5,
+117325,SCI-8,Science 8,Sem 1,70.7,
+117325,SCI-8,Science 8,Sem 2,72.9,
+117325,SS-8,Social Studies 8,Sem 1,74.3,
+117325,SS-8,Social Studies 8,Sem 2,74.4,
+117325,PE-8,Physical Education 8,Sem 1,66.2,
+117325,PE-8,Physical Education 8,Sem 2,75.4,
+117325,BAND-8,Band,Sem 1,65.1,
+117325,BAND-8,Band,Sem 2,69.5,
+125401,ENG-8,English 8,Sem 1,68.6,
+125401,ENG-8,English 8,Sem 2,81.8,
+125401,MATH-8,Math 8,Sem 1,73.6,
+125401,MATH-8,Math 8,Sem 2,78.1,
+125401,SCI-8,Science 8,Sem 1,74.7,
+125401,SCI-8,Science 8,Sem 2,83.2,
+125401,SS-8,Social Studies 8,Sem 1,83.5,
+125401,SS-8,Social Studies 8,Sem 2,76.6,
+125401,PE-8,Physical Education 8,Sem 1,72.3,
+125401,PE-8,Physical Education 8,Sem 2,84.2,
+125401,BAND-8,Band,Sem 1,77.6,
+125401,BAND-8,Band,Sem 2,74.7,
+102710,ENG-9,English 9,Sem 1,75.3,0.5
+102710,ENG-9,English 9,Sem 2,70.0,0.5
+102710,MATH-9,Algebra I,Sem 1,79.9,0.5
+102710,MATH-9,Algebra I,Sem 2,75.7,0.5
+102710,SCI-9,Biology,Sem 1,81.1,0.5
+102710,SCI-9,Biology,Sem 2,71.2,0.5
+102710,SS-9,World History,Sem 1,83.8,0.5
+102710,SS-9,World History,Sem 2,83.6,0.5
+102710,ART2-9,Ceramics,Sem 1,64.6,0.5
+102710,ART2-9,Ceramics,Sem 2,78.4,0.5
+102710,CS-9,Intro to Computer Science,Sem 1,73.1,0.5
+102710,CS-9,Intro to Computer Science,Sem 2,73.4,0.5
+137254,ENG-6,English 6,Sem 1,73.5,
+137254,ENG-6,English 6,Sem 2,82.1,
+137254,MATH-6,Math 6,Sem 1,83.4,
+137254,MATH-6,Math 6,Sem 2,76.3,
+137254,SCI-6,Science 6,Sem 1,71.1,
+137254,SCI-6,Science 6,Sem 2,88.9,
+137254,SS-6,Social Studies 6,Sem 1,75.4,
+137254,SS-6,Social Studies 6,Sem 2,72.0,
+137254,PE-6,Physical Education 6,Sem 1,82.2,
+137254,PE-6,Physical Education 6,Sem 2,73.0,
+137254,SPAN-6,Spanish I,Sem 1,84.6,
+137254,SPAN-6,Spanish I,Sem 2,75.8,
+134624,ENG-7,English 7,Sem 1,85.5,
+134624,ENG-7,English 7,Sem 2,70.9,
+134624,MATH-7,Math 7,Sem 1,78.8,
+134624,MATH-7,Math 7,Sem 2,90.9,
+134624,SCI-7,Science 7,Sem 1,78.9,
+134624,SCI-7,Science 7,Sem 2,85.2,
+134624,SS-7,Social Studies 7,Sem 1,86.2,
+134624,SS-7,Social Studies 7,Sem 2,87.9,
+134624,PE-7,Physical Education 7,Sem 1,84.9,
+134624,PE-7,Physical Education 7,Sem 2,81.5,
+134624,SPAN-7,Spanish I,Sem 1,85.1,
+134624,SPAN-7,Spanish I,Sem 2,74.1,
+105953,ENG-10,English 10,Sem 1,99.2,0.5
+105953,ENG-10,English 10,Sem 2,86.1,0.5
+105953,MATH-10,Geometry,Sem 1,82.5,0.5
+105953,MATH-10,Geometry,Sem 2,94.3,0.5
+105953,SCI-10,Chemistry,Sem 1,92.2,0.5
+105953,SCI-10,Chemistry,Sem 2,85.6,0.5
+105953,SS-10,World Geography,Sem 1,87.8,0.5
+105953,SS-10,World Geography,Sem 2,93.1,0.5
+105953,PHOT-10,Photography,Sem 1,95.4,0.5
+105953,PHOT-10,Photography,Sem 2,91.5,0.5
+105953,ORCH-10,Orchestra,Sem 1,97.5,0.5
+105953,ORCH-10,Orchestra,Sem 2,86.7,0.5
+125993,ENG-6,English 6,Sem 1,84.1,
+125993,ENG-6,English 6,Sem 2,85.9,
+125993,MATH-6,Math 6,Sem 1,81.2,
+125993,MATH-6,Math 6,Sem 2,83.0,
+125993,SCI-6,Science 6,Sem 1,83.5,
+125993,SCI-6,Science 6,Sem 2,95.5,
+125993,SS-6,Social Studies 6,Sem 1,81.4,
+125993,SS-6,Social Studies 6,Sem 2,88.9,
+125993,PE-6,Physical Education 6,Sem 1,94.0,
+125993,PE-6,Physical Education 6,Sem 2,79.4,
+125993,SPAN-6,Spanish I,Sem 1,91.4,
+125993,SPAN-6,Spanish I,Sem 2,93.9,
+136659,ENG-12,English 12,Sem 1,74.9,0.5
+136659,ENG-12,English 12,Sem 2,79.8,0.5
+136659,MATH-12,Pre-Calculus,Sem 1,72.0,0.5
+136659,MATH-12,Pre-Calculus,Sem 2,81.1,0.5
+136659,SCI-12,Environmental Science,Sem 1,84.1,0.5
+136659,SCI-12,Environmental Science,Sem 2,81.2,0.5
+136659,SS-12,Government & Economics,Sem 1,76.6,0.5
+136659,SS-12,Government & Economics,Sem 2,80.0,0.5
+136659,ORCH-12,Orchestra,Sem 1,89.2,0.5
+136659,ORCH-12,Orchestra,Sem 2,82.1,0.5
+136659,PHOT-12,Photography,Sem 1,84.5,0.5
+136659,PHOT-12,Photography,Sem 2,72.8,0.5
+137772,ENG-12,English 12,Sem 1,89.5,0.5
+137772,ENG-12,English 12,Sem 2,94.5,0.5
+137772,MATH-12,Pre-Calculus,Sem 1,82.3,0.5
+137772,MATH-12,Pre-Calculus,Sem 2,82.0,0.5
+137772,SCI-12,Environmental Science,Sem 1,90.9,0.5
+137772,SCI-12,Environmental Science,Sem 2,80.0,0.5
+137772,SS-12,Government & Economics,Sem 1,96.5,0.5
+137772,SS-12,Government & Economics,Sem 2,89.2,0.5
+137772,SPAN-12,Spanish II,Sem 1,83.6,0.5
+137772,SPAN-12,Spanish II,Sem 2,83.8,0.5
+137772,ORCH-12,Orchestra,Sem 1,81.6,0.5
+137772,ORCH-12,Orchestra,Sem 2,81.7,0.5
+126170,ENG-6,English 6,Sem 1,82.8,
+126170,ENG-6,English 6,Sem 2,84.1,
+126170,MATH-6,Math 6,Sem 1,77.8,
+126170,MATH-6,Math 6,Sem 2,84.7,
+126170,SCI-6,Science 6,Sem 1,73.7,
+126170,SCI-6,Science 6,Sem 2,76.9,
+126170,SS-6,Social Studies 6,Sem 1,79.1,
+126170,SS-6,Social Studies 6,Sem 2,70.6,
+126170,PE-6,Physical Education 6,Sem 1,77.6,
+126170,PE-6,Physical Education 6,Sem 2,67.4,
+126170,ART-6,Art,Sem 1,83.5,
+126170,ART-6,Art,Sem 2,71.2,
+107192,ENG-9,English 9,Sem 1,88.6,0.5
+107192,ENG-9,English 9,Sem 2,83.2,0.5
+107192,MATH-9,Algebra I,Sem 1,94.5,0.5
+107192,MATH-9,Algebra I,Sem 2,87.9,0.5
+107192,SCI-9,Biology,Sem 1,95.3,0.5
+107192,SCI-9,Biology,Sem 2,85.1,0.5
+107192,SS-9,World History,Sem 1,86.4,0.5
+107192,SS-9,World History,Sem 2,83.0,0.5
+107192,ART2-9,Ceramics,Sem 1,76.6,0.5
+107192,ART2-9,Ceramics,Sem 2,82.7,0.5
+107192,HLTH-9,Health,Sem 1,85.4,0.5
+107192,HLTH-9,Health,Sem 2,91.8,0.5
+125789,ENG-7,English 7,Sem 1,89.0,
+125789,ENG-7,English 7,Sem 2,83.0,
+125789,MATH-7,Math 7,Sem 1,84.7,
+125789,MATH-7,Math 7,Sem 2,86.2,
+125789,SCI-7,Science 7,Sem 1,88.1,
+125789,SCI-7,Science 7,Sem 2,80.0,
+125789,SS-7,Social Studies 7,Sem 1,95.8,
+125789,SS-7,Social Studies 7,Sem 2,87.2,
+125789,PE-7,Physical Education 7,Sem 1,86.0,
+125789,PE-7,Physical Education 7,Sem 2,79.6,
+125789,BAND-7,Band,Sem 1,86.7,
+125789,BAND-7,Band,Sem 2,83.6,
+121847,ENG-6,English 6,Sem 1,74.6,
+121847,ENG-6,English 6,Sem 2,69.1,
+121847,MATH-6,Math 6,Sem 1,82.8,
+121847,MATH-6,Math 6,Sem 2,70.6,
+121847,SCI-6,Science 6,Sem 1,63.4,
+121847,SCI-6,Science 6,Sem 2,65.3,
+121847,SS-6,Social Studies 6,Sem 1,60.0,
+121847,SS-6,Social Studies 6,Sem 2,61.1,
+121847,PE-6,Physical Education 6,Sem 1,69.9,
+121847,PE-6,Physical Education 6,Sem 2,76.7,
+121847,ART-6,Art,Sem 1,75.7,
+121847,ART-6,Art,Sem 2,78.9,
+100735,ENG-7,English 7,Sem 1,87.3,
+100735,ENG-7,English 7,Sem 2,81.8,
+100735,MATH-7,Math 7,Sem 1,87.3,
+100735,MATH-7,Math 7,Sem 2,85.5,
+100735,SCI-7,Science 7,Sem 1,83.2,
+100735,SCI-7,Science 7,Sem 2,72.2,
+100735,SS-7,Social Studies 7,Sem 1,83.8,
+100735,SS-7,Social Studies 7,Sem 2,72.2,
+100735,PE-7,Physical Education 7,Sem 1,84.0,
+100735,PE-7,Physical Education 7,Sem 2,77.9,
+100735,BAND-7,Band,Sem 1,88.5,
+100735,BAND-7,Band,Sem 2,82.5,
+105213,ENG-12,English 12,Sem 1,65.8,0.5
+105213,ENG-12,English 12,Sem 2,45.9,0
+105213,MATH-12,Pre-Calculus,Sem 1,49.1,0
+105213,MATH-12,Pre-Calculus,Sem 2,51.3,0
+105213,SCI-12,Environmental Science,Sem 1,45.8,0
+105213,SCI-12,Environmental Science,Sem 2,43.5,0
+105213,SS-12,Government & Economics,Sem 1,50.4,0
+105213,SS-12,Government & Economics,Sem 2,48.3,0
+105213,PHOT-12,Photography,Sem 1,38.7,0
+105213,PHOT-12,Photography,Sem 2,40.7,0
+105213,SPAN-12,Spanish II,Sem 1,40.0,0
+105213,SPAN-12,Spanish II,Sem 2,45.0,0
+109833,ENG-7,English 7,Sem 1,74.2,
+109833,ENG-7,English 7,Sem 2,73.7,
+109833,MATH-7,Math 7,Sem 1,80.5,
+109833,MATH-7,Math 7,Sem 2,77.2,
+109833,SCI-7,Science 7,Sem 1,78.3,
+109833,SCI-7,Science 7,Sem 2,82.4,
+109833,SS-7,Social Studies 7,Sem 1,72.0,
+109833,SS-7,Social Studies 7,Sem 2,76.7,
+109833,PE-7,Physical Education 7,Sem 1,76.8,
+109833,PE-7,Physical Education 7,Sem 2,84.2,
+109833,ART-7,Art,Sem 1,73.2,
+109833,ART-7,Art,Sem 2,68.1,
+116879,ENG-10,English 10,Sem 1,60.7,0.5
+116879,ENG-10,English 10,Sem 2,65.4,0.5
+116879,MATH-10,Geometry,Sem 1,71.7,0.5
+116879,MATH-10,Geometry,Sem 2,69.5,0.5
+116879,SCI-10,Chemistry,Sem 1,64.4,0.5
+116879,SCI-10,Chemistry,Sem 2,74.2,0.5
+116879,SS-10,World Geography,Sem 1,62.3,0.5
+116879,SS-10,World Geography,Sem 2,66.4,0.5
+116879,HLTH-10,Health,Sem 1,60.0,0
+116879,HLTH-10,Health,Sem 2,73.8,0.5
+116879,SPAN-10,Spanish II,Sem 1,69.1,0.5
+116879,SPAN-10,Spanish II,Sem 2,57.8,0
+100431,ENG-12,English 12,Sem 1,84.0,0.5
+100431,MATH-12,Pre-Calculus,Sem 1,77.6,0.5
+100431,SCI-12,Environmental Science,Sem 1,81.6,0.5
+100431,SS-12,Government & Economics,Sem 1,71.9,0.5
+100431,ART2-12,Ceramics,Sem 1,85.4,0.5
+100431,PHOT-12,Photography,Sem 1,81.3,0.5
+139303,ENG-11,English 11,Sem 1,88.9,0.5
+139303,ENG-11,English 11,Sem 2,81.7,0.5
+139303,MATH-11,Algebra II,Sem 1,87.6,0.5
+139303,MATH-11,Algebra II,Sem 2,84.7,0.5
+139303,SCI-11,Physics,Sem 1,76.3,0.5
+139303,SCI-11,Physics,Sem 2,63.3,0.5
+139303,SS-11,U.S. History,Sem 1,82.4,0.5
+139303,SS-11,U.S. History,Sem 2,78.7,0.5
+139303,PHOT-11,Photography,Sem 1,89.7,0.5
+139303,PHOT-11,Photography,Sem 2,90.0,0.5
+139303,ORCH-11,Orchestra,Sem 1,89.2,0.5
+139303,ORCH-11,Orchestra,Sem 2,77.5,0.5
+119417,ENG-7,English 7,Sem 1,72.2,
+119417,ENG-7,English 7,Sem 2,73.4,
+119417,MATH-7,Math 7,Sem 1,85.6,
+119417,MATH-7,Math 7,Sem 2,76.8,
+119417,SCI-7,Science 7,Sem 1,71.7,
+119417,SCI-7,Science 7,Sem 2,74.5,
+119417,SS-7,Social Studies 7,Sem 1,87.4,
+119417,SS-7,Social Studies 7,Sem 2,74.7,
+119417,PE-7,Physical Education 7,Sem 1,79.3,
+119417,PE-7,Physical Education 7,Sem 2,74.8,
+119417,SPAN-7,Spanish I,Sem 1,74.7,
+119417,SPAN-7,Spanish I,Sem 2,71.4,
+103897,ENG-10,English 10,Sem 1,73.2,0.5
+103897,ENG-10,English 10,Sem 2,79.5,0.5
+103897,MATH-10,Geometry,Sem 1,65.9,0.5
+103897,MATH-10,Geometry,Sem 2,62.0,0.5
+103897,SCI-10,Chemistry,Sem 1,73.0,0.5
+103897,SCI-10,Chemistry,Sem 2,67.5,0.5
+103897,SS-10,World Geography,Sem 1,70.3,0.5
+103897,SS-10,World Geography,Sem 2,74.5,0.5
+103897,ORCH-10,Orchestra,Sem 1,87.0,0.5
+103897,ORCH-10,Orchestra,Sem 2,75.1,0.5
+103897,SPAN-10,Spanish II,Sem 1,67.1,0.5
+103897,SPAN-10,Spanish II,Sem 2,81.2,0.5
+133725,ENG-7,English 7,Sem 1,71.1,
+133725,ENG-7,English 7,Sem 2,71.5,
+133725,MATH-7,Math 7,Sem 1,72.4,
+133725,MATH-7,Math 7,Sem 2,72.0,
+133725,SCI-7,Science 7,Sem 1,78.6,
+133725,SCI-7,Science 7,Sem 2,63.5,
+133725,SS-7,Social Studies 7,Sem 1,80.0,
+133725,SS-7,Social Studies 7,Sem 2,71.5,
+133725,PE-7,Physical Education 7,Sem 1,69.6,
+133725,PE-7,Physical Education 7,Sem 2,70.7,
+133725,BAND-7,Band,Sem 1,88.0,
+133725,BAND-7,Band,Sem 2,69.1,
+119076,ENG-9,English 9,Sem 1,54.0,0
+119076,ENG-9,English 9,Sem 2,55.7,0
+119076,MATH-9,Algebra I,Sem 1,69.6,0.5
+119076,MATH-9,Algebra I,Sem 2,59.0,0
+119076,SCI-9,Biology,Sem 1,66.4,0.5
+119076,SCI-9,Biology,Sem 2,63.0,0.5
+119076,SS-9,World History,Sem 1,61.0,0.5
+119076,SS-9,World History,Sem 2,71.1,0.5
+119076,PHOT-9,Photography,Sem 1,60.0,0.5
+119076,PHOT-9,Photography,Sem 2,61.8,0.5
+119076,SPAN-9,Spanish II,Sem 1,65.3,0.5
+119076,SPAN-9,Spanish II,Sem 2,69.9,0.5
+104576,ENG-10,English 10,Sem 1,81.0,0.5
+104576,ENG-10,English 10,Sem 2,87.8,0.5
+104576,MATH-10,Geometry,Sem 1,88.6,0.5
+104576,MATH-10,Geometry,Sem 2,89.3,0.5
+104576,SCI-10,Chemistry,Sem 1,90.0,0.5
+104576,SCI-10,Chemistry,Sem 2,81.9,0.5
+104576,SS-10,World Geography,Sem 1,75.7,0.5
+104576,SS-10,World Geography,Sem 2,82.7,0.5
+104576,ORCH-10,Orchestra,Sem 1,84.0,0.5
+104576,ORCH-10,Orchestra,Sem 2,87.9,0.5
+104576,HLTH-10,Health,Sem 1,87.1,0.5
+104576,HLTH-10,Health,Sem 2,85.4,0.5
+134179,ENG-10,English 10,Sem 1,73.3,0.5
+134179,ENG-10,English 10,Sem 2,77.7,0.5
+134179,MATH-10,Geometry,Sem 1,63.4,0.5
+134179,MATH-10,Geometry,Sem 2,64.4,0.5
+134179,SCI-10,Chemistry,Sem 1,68.6,0.5
+134179,SCI-10,Chemistry,Sem 2,61.4,0.5
+134179,SS-10,World Geography,Sem 1,61.5,0.5
+134179,SS-10,World Geography,Sem 2,63.8,0.5
+134179,CS-10,Intro to Computer Science,Sem 1,70.0,0.5
+134179,CS-10,Intro to Computer Science,Sem 2,65.5,0.5
+134179,ORCH-10,Orchestra,Sem 1,62.9,0.5
+134179,ORCH-10,Orchestra,Sem 2,58.9,0
+113342,ENG-11,English 11,Sem 1,70.9,0.5
+113342,ENG-11,English 11,Sem 2,59.8,0
+113342,MATH-11,Algebra II,Sem 1,69.4,0.5
+113342,MATH-11,Algebra II,Sem 2,74.9,0.5
+113342,SCI-11,Physics,Sem 1,58.4,0
+113342,SCI-11,Physics,Sem 2,69.0,0.5
+113342,SS-11,U.S. History,Sem 1,70.2,0.5
+113342,SS-11,U.S. History,Sem 2,70.2,0.5
+113342,SPAN-11,Spanish II,Sem 1,64.8,0.5
+113342,SPAN-11,Spanish II,Sem 2,69.1,0.5
+113342,CS-11,Intro to Computer Science,Sem 1,72.2,0.5
+113342,CS-11,Intro to Computer Science,Sem 2,68.9,0.5
+122398,ENG-12,English 12,Sem 1,85.9,0.5
+122398,ENG-12,English 12,Sem 2,85.2,0.5
+122398,MATH-12,Pre-Calculus,Sem 1,77.7,0.5
+122398,MATH-12,Pre-Calculus,Sem 2,78.8,0.5
+122398,SCI-12,Environmental Science,Sem 1,77.9,0.5
+122398,SCI-12,Environmental Science,Sem 2,80.9,0.5
+122398,SS-12,Government & Economics,Sem 1,83.0,0.5
+122398,SS-12,Government & Economics,Sem 2,72.5,0.5
+122398,HLTH-12,Health,Sem 1,74.3,0.5
+122398,HLTH-12,Health,Sem 2,75.8,0.5
+122398,CS-12,Intro to Computer Science,Sem 1,85.9,0.5
+122398,CS-12,Intro to Computer Science,Sem 2,79.4,0.5
+138385,ENG-8,English 8,Sem 1,69.6,
+138385,ENG-8,English 8,Sem 2,77.3,
+138385,MATH-8,Math 8,Sem 1,73.5,
+138385,MATH-8,Math 8,Sem 2,75.1,
+138385,SCI-8,Science 8,Sem 1,71.9,
+138385,SCI-8,Science 8,Sem 2,73.1,
+138385,SS-8,Social Studies 8,Sem 1,75.4,
+138385,SS-8,Social Studies 8,Sem 2,73.1,
+138385,PE-8,Physical Education 8,Sem 1,74.0,
+138385,PE-8,Physical Education 8,Sem 2,73.8,
+138385,SPAN-8,Spanish I,Sem 1,76.5,
+138385,SPAN-8,Spanish I,Sem 2,70.6,
+128970,ENG-12,English 12,Sem 1,64.4,0.5
+128970,ENG-12,English 12,Sem 2,61.7,0.5
+128970,MATH-12,Pre-Calculus,Sem 1,61.6,0.5
+128970,MATH-12,Pre-Calculus,Sem 2,71.7,0.5
+128970,SCI-12,Environmental Science,Sem 1,72.1,0.5
+128970,SCI-12,Environmental Science,Sem 2,76.1,0.5
+128970,SS-12,Government & Economics,Sem 1,74.2,0.5
+128970,SS-12,Government & Economics,Sem 2,64.6,0.5
+128970,SPAN-12,Spanish II,Sem 1,71.3,0.5
+128970,SPAN-12,Spanish II,Sem 2,69.2,0.5
+128970,ORCH-12,Orchestra,Sem 1,73.2,0.5
+128970,ORCH-12,Orchestra,Sem 2,71.6,0.5
+114511,ENG-6,English 6,Sem 1,92.2,
+114511,ENG-6,English 6,Sem 2,100.0,
+114511,MATH-6,Math 6,Sem 1,92.5,
+114511,MATH-6,Math 6,Sem 2,89.7,
+114511,SCI-6,Science 6,Sem 1,92.3,
+114511,SCI-6,Science 6,Sem 2,83.3,
+114511,SS-6,Social Studies 6,Sem 1,90.9,
+114511,SS-6,Social Studies 6,Sem 2,77.4,
+114511,PE-6,Physical Education 6,Sem 1,89.9,
+114511,PE-6,Physical Education 6,Sem 2,79.0,
+114511,ART-6,Art,Sem 1,88.6,
+114511,ART-6,Art,Sem 2,86.8,
+104449,ENG-9,English 9,Sem 1,74.9,0.5
+104449,ENG-9,English 9,Sem 2,72.0,0.5
+104449,MATH-9,Algebra I,Sem 1,64.9,0.5
+104449,MATH-9,Algebra I,Sem 2,65.4,0.5
+104449,SCI-9,Biology,Sem 1,64.5,0.5
+104449,SCI-9,Biology,Sem 2,67.6,0.5
+104449,SS-9,World History,Sem 1,72.0,0.5
+104449,SS-9,World History,Sem 2,72.6,0.5
+104449,HLTH-9,Health,Sem 1,77.0,0.5
+104449,HLTH-9,Health,Sem 2,70.2,0.5
+104449,SPAN-9,Spanish II,Sem 1,70.4,0.5
+104449,SPAN-9,Spanish II,Sem 2,65.4,0.5
+105117,ENG-11,English 11,Sem 1,88.3,0.5
+105117,ENG-11,English 11,Sem 2,83.6,0.5
+105117,MATH-11,Algebra II,Sem 1,83.3,0.5
+105117,MATH-11,Algebra II,Sem 2,76.5,0.5
+105117,SCI-11,Physics,Sem 1,81.9,0.5
+105117,SCI-11,Physics,Sem 2,79.1,0.5
+105117,SS-11,U.S. History,Sem 1,81.5,0.5
+105117,SS-11,U.S. History,Sem 2,81.6,0.5
+105117,HLTH-11,Health,Sem 1,83.7,0.5
+105117,HLTH-11,Health,Sem 2,76.0,0.5
+105117,CS-11,Intro to Computer Science,Sem 1,82.0,0.5
+105117,CS-11,Intro to Computer Science,Sem 2,81.2,0.5
+126653,ENG-6,English 6,Sem 1,76.3,
+126653,ENG-6,English 6,Sem 2,74.4,
+126653,MATH-6,Math 6,Sem 1,74.7,
+126653,MATH-6,Math 6,Sem 2,69.3,
+126653,SCI-6,Science 6,Sem 1,77.0,
+126653,SCI-6,Science 6,Sem 2,66.0,
+126653,SS-6,Social Studies 6,Sem 1,79.0,
+126653,SS-6,Social Studies 6,Sem 2,76.4,
+126653,PE-6,Physical Education 6,Sem 1,66.3,
+126653,PE-6,Physical Education 6,Sem 2,85.7,
+126653,ART-6,Art,Sem 1,68.9,
+126653,ART-6,Art,Sem 2,71.2,
+122582,ENG-9,English 9,Sem 1,72.5,0.5
+122582,ENG-9,English 9,Sem 2,70.6,0.5
+122582,MATH-9,Algebra I,Sem 1,73.8,0.5
+122582,MATH-9,Algebra I,Sem 2,76.9,0.5
+122582,SCI-9,Biology,Sem 1,73.7,0.5
+122582,SCI-9,Biology,Sem 2,79.1,0.5
+122582,SS-9,World History,Sem 1,77.9,0.5
+122582,SS-9,World History,Sem 2,67.6,0.5
+122582,SPAN-9,Spanish II,Sem 1,83.0,0.5
+122582,SPAN-9,Spanish II,Sem 2,77.0,0.5
+122582,PHOT-9,Photography,Sem 1,80.9,0.5
+122582,PHOT-9,Photography,Sem 2,77.7,0.5
+102014,ENG-7,English 7,Sem 1,75.3,
+102014,ENG-7,English 7,Sem 2,84.2,
+102014,MATH-7,Math 7,Sem 1,85.1,
+102014,MATH-7,Math 7,Sem 2,76.1,
+102014,SCI-7,Science 7,Sem 1,71.6,
+102014,SCI-7,Science 7,Sem 2,76.4,
+102014,SS-7,Social Studies 7,Sem 1,80.5,
+102014,SS-7,Social Studies 7,Sem 2,83.7,
+102014,PE-7,Physical Education 7,Sem 1,72.9,
+102014,PE-7,Physical Education 7,Sem 2,79.9,
+102014,BAND-7,Band,Sem 1,80.7,
+102014,BAND-7,Band,Sem 2,97.3,
+120042,ENG-7,English 7,Sem 1,73.1,
+120042,ENG-7,English 7,Sem 2,72.9,
+120042,MATH-7,Math 7,Sem 1,77.0,
+120042,MATH-7,Math 7,Sem 2,70.6,
+120042,SCI-7,Science 7,Sem 1,80.8,
+120042,SCI-7,Science 7,Sem 2,66.8,
+120042,SS-7,Social Studies 7,Sem 1,76.6,
+120042,SS-7,Social Studies 7,Sem 2,67.7,
+120042,PE-7,Physical Education 7,Sem 1,80.9,
+120042,PE-7,Physical Education 7,Sem 2,79.3,
+120042,BAND-7,Band,Sem 1,72.9,
+120042,BAND-7,Band,Sem 2,70.9,
+125382,ENG-11,English 11,Sem 1,79.7,0.5
+125382,ENG-11,English 11,Sem 2,84.8,0.5
+125382,MATH-11,Algebra II,Sem 1,86.1,0.5
+125382,MATH-11,Algebra II,Sem 2,83.5,0.5
+125382,SCI-11,Physics,Sem 1,81.1,0.5
+125382,SCI-11,Physics,Sem 2,84.5,0.5
+125382,SS-11,U.S. History,Sem 1,78.8,0.5
+125382,SS-11,U.S. History,Sem 2,77.2,0.5
+125382,ART2-11,Ceramics,Sem 1,84.4,0.5
+125382,ART2-11,Ceramics,Sem 2,96.4,0.5
+125382,PHOT-11,Photography,Sem 1,80.2,0.5
+125382,PHOT-11,Photography,Sem 2,82.5,0.5
+133908,ENG-8,English 8,Sem 1,80.8,
+133908,ENG-8,English 8,Sem 2,74.2,
+133908,MATH-8,Math 8,Sem 1,82.8,
+133908,MATH-8,Math 8,Sem 2,94.4,
+133908,SCI-8,Science 8,Sem 1,91.5,
+133908,SCI-8,Science 8,Sem 2,79.5,
+133908,SS-8,Social Studies 8,Sem 1,81.8,
+133908,SS-8,Social Studies 8,Sem 2,90.7,
+133908,PE-8,Physical Education 8,Sem 1,89.1,
+133908,PE-8,Physical Education 8,Sem 2,89.9,
+133908,ART-8,Art,Sem 1,86.8,
+133908,ART-8,Art,Sem 2,76.9,
+130460,ENG-10,English 10,Sem 1,64.8,0.5
+130460,ENG-10,English 10,Sem 2,73.7,0.5
+130460,MATH-10,Geometry,Sem 1,63.9,0.5
+130460,MATH-10,Geometry,Sem 2,78.2,0.5
+130460,SCI-10,Chemistry,Sem 1,69.3,0.5
+130460,SCI-10,Chemistry,Sem 2,75.8,0.5
+130460,SS-10,World Geography,Sem 1,75.5,0.5
+130460,SS-10,World Geography,Sem 2,53.9,0
+130460,HLTH-10,Health,Sem 1,65.5,0.5
+130460,HLTH-10,Health,Sem 2,72.9,0.5
+130460,ART2-10,Ceramics,Sem 1,74.0,0.5
+130460,ART2-10,Ceramics,Sem 2,73.9,0.5
+109634,ENG-12,English 12,Sem 1,92.8,0.5
+109634,ENG-12,English 12,Sem 2,100.0,0.5
+109634,MATH-12,Pre-Calculus,Sem 1,91.8,0.5
+109634,MATH-12,Pre-Calculus,Sem 2,86.6,0.5
+109634,SCI-12,Environmental Science,Sem 1,96.9,0.5
+109634,SCI-12,Environmental Science,Sem 2,88.0,0.5
+109634,SS-12,Government & Economics,Sem 1,90.2,0.5
+109634,SS-12,Government & Economics,Sem 2,93.9,0.5
+109634,CS-12,Intro to Computer Science,Sem 1,88.5,0.5
+109634,CS-12,Intro to Computer Science,Sem 2,100.0,0.5
+109634,HLTH-12,Health,Sem 1,94.1,0.5
+109634,HLTH-12,Health,Sem 2,81.4,0.5
+115649,ENG-10,English 10,Sem 1,58.1,0
+115649,ENG-10,English 10,Sem 2,57.9,0
+115649,MATH-10,Geometry,Sem 1,63.8,0.5
+115649,MATH-10,Geometry,Sem 2,64.2,0.5
+115649,SCI-10,Chemistry,Sem 1,56.1,0
+115649,SCI-10,Chemistry,Sem 2,67.0,0.5
+115649,SS-10,World Geography,Sem 1,48.0,0
+115649,SS-10,World Geography,Sem 2,71.0,0.5
+115649,ORCH-10,Orchestra,Sem 1,59.1,0
+115649,ORCH-10,Orchestra,Sem 2,81.4,0.5
+115649,ART2-10,Ceramics,Sem 1,68.6,0.5
+115649,ART2-10,Ceramics,Sem 2,57.4,0
+119612,ENG-7,English 7,Sem 1,81.7,
+119612,ENG-7,English 7,Sem 2,82.4,
+119612,MATH-7,Math 7,Sem 1,74.7,
+119612,MATH-7,Math 7,Sem 2,86.0,
+119612,SCI-7,Science 7,Sem 1,79.4,
+119612,SCI-7,Science 7,Sem 2,82.8,
+119612,SS-7,Social Studies 7,Sem 1,80.7,
+119612,SS-7,Social Studies 7,Sem 2,79.2,
+119612,PE-7,Physical Education 7,Sem 1,78.8,
+119612,PE-7,Physical Education 7,Sem 2,80.6,
+119612,BAND-7,Band,Sem 1,77.6,
+119612,BAND-7,Band,Sem 2,73.9,
+138102,ENG-10,English 10,Sem 1,89.0,0.5
+138102,ENG-10,English 10,Sem 2,88.1,0.5
+138102,MATH-10,Geometry,Sem 1,76.4,0.5
+138102,MATH-10,Geometry,Sem 2,79.2,0.5
+138102,SCI-10,Chemistry,Sem 1,87.2,0.5
+138102,SCI-10,Chemistry,Sem 2,79.4,0.5
+138102,SS-10,World Geography,Sem 1,71.5,0.5
+138102,SS-10,World Geography,Sem 2,98.1,0.5
+138102,ORCH-10,Orchestra,Sem 1,81.2,0.5
+138102,ORCH-10,Orchestra,Sem 2,80.3,0.5
+138102,SPAN-10,Spanish II,Sem 1,84.6,0.5
+138102,SPAN-10,Spanish II,Sem 2,85.7,0.5
+127810,ENG-7,English 7,Sem 1,37.0,
+127810,ENG-7,English 7,Sem 2,38.0,
+127810,MATH-7,Math 7,Sem 1,50.1,
+127810,MATH-7,Math 7,Sem 2,43.1,
+127810,SCI-7,Science 7,Sem 1,48.4,
+127810,SCI-7,Science 7,Sem 2,48.9,
+127810,SS-7,Social Studies 7,Sem 1,43.1,
+127810,SS-7,Social Studies 7,Sem 2,61.3,
+127810,PE-7,Physical Education 7,Sem 1,44.3,
+127810,PE-7,Physical Education 7,Sem 2,52.8,
+127810,SPAN-7,Spanish I,Sem 1,36.4,
+127810,SPAN-7,Spanish I,Sem 2,40.5,
+121328,ENG-6,English 6,Sem 1,100.0,
+121328,ENG-6,English 6,Sem 2,95.0,
+121328,MATH-6,Math 6,Sem 1,98.5,
+121328,MATH-6,Math 6,Sem 2,88.0,
+121328,SCI-6,Science 6,Sem 1,97.2,
+121328,SCI-6,Science 6,Sem 2,104.0,
+121328,SS-6,Social Studies 6,Sem 1,96.0,
+121328,SS-6,Social Studies 6,Sem 2,88.1,
+121328,PE-6,Physical Education 6,Sem 1,100.0,
+121328,PE-6,Physical Education 6,Sem 2,100.0,
+121328,SPAN-6,Spanish I,Sem 1,101.2,
+121328,SPAN-6,Spanish I,Sem 2,,
+127910,ENG-7,English 7,Sem 1,69.1,
+127910,MATH-7,Math 7,Sem 1,73.9,
+127910,SCI-7,Science 7,Sem 1,83.3,
+127910,SS-7,Social Studies 7,Sem 1,82.1,
+127910,PE-7,Physical Education 7,Sem 1,72.4,
+127910,ART-7,Art,Sem 1,80.2,
+126982,ENG-10,English 10,Sem 1,79.4,0.5
+126982,ENG-10,English 10,Sem 2,93.1,0.5
+126982,MATH-10,Geometry,Sem 1,79.4,0.5
+126982,MATH-10,Geometry,Sem 2,74.7,0.5
+126982,SCI-10,Chemistry,Sem 1,79.4,0.5
+126982,SCI-10,Chemistry,Sem 2,90.6,0.5
+126982,SS-10,World Geography,Sem 1,76.5,0.5
+126982,SS-10,World Geography,Sem 2,92.8,0.5
+126982,HLTH-10,Health,Sem 1,74.9,0.5
+126982,HLTH-10,Health,Sem 2,82.9,0.5
+126982,ART2-10,Ceramics,Sem 1,89.8,0.5
+126982,ART2-10,Ceramics,Sem 2,75.2,0.5
+101269,ENG-11,English 11,Sem 1,84.8,0.5
+101269,ENG-11,English 11,Sem 2,76.6,0.5
+101269,MATH-11,Algebra II,Sem 1,62.0,0.5
+101269,MATH-11,Algebra II,Sem 2,74.6,0.5
+101269,SCI-11,Physics,Sem 1,63.9,0.5
+101269,SCI-11,Physics,Sem 2,66.5,0.5
+101269,SS-11,U.S. History,Sem 1,65.6,0.5
+101269,SS-11,U.S. History,Sem 2,61.8,0.5
+101269,ORCH-11,Orchestra,Sem 1,67.7,0.5
+101269,ORCH-11,Orchestra,Sem 2,73.0,0.5
+101269,SPAN-11,Spanish II,Sem 1,70.8,0.5
+101269,SPAN-11,Spanish II,Sem 2,66.6,0.5
+131010,ENG-9,English 9,Sem 1,69.9,0.5
+131010,ENG-9,English 9,Sem 2,87.3,0.5
+131010,MATH-9,Algebra I,Sem 1,60.3,0.5
+131010,MATH-9,Algebra I,Sem 2,67.7,0.5
+131010,SCI-9,Biology,Sem 1,79.5,0.5
+131010,SCI-9,Biology,Sem 2,58.4,0
+131010,SS-9,World History,Sem 1,66.0,0.5
+131010,SS-9,World History,Sem 2,72.9,0.5
+131010,ORCH-9,Orchestra,Sem 1,65.9,0.5
+131010,ORCH-9,Orchestra,Sem 2,67.5,0.5
+131010,PHOT-9,Photography,Sem 1,74.7,0.5
+131010,PHOT-9,Photography,Sem 2,85.0,0.5
+128613,ENG-7,English 7,Sem 1,87.5,
+128613,ENG-7,English 7,Sem 2,73.9,
+128613,MATH-7,Math 7,Sem 1,90.2,
+128613,MATH-7,Math 7,Sem 2,77.0,
+128613,SCI-7,Science 7,Sem 1,90.7,
+128613,SCI-7,Science 7,Sem 2,87.3,
+128613,SS-7,Social Studies 7,Sem 1,93.7,
+128613,SS-7,Social Studies 7,Sem 2,82.9,
+128613,PE-7,Physical Education 7,Sem 1,79.3,
+128613,PE-7,Physical Education 7,Sem 2,79.7,
+128613,BAND-7,Band,Sem 1,100.0,
+128613,BAND-7,Band,Sem 2,81.9,
+132692,ENG-10,English 10,Sem 1,77.7,0.5
+132692,MATH-10,Geometry,Sem 1,82.2,0.5
+132692,SCI-10,Chemistry,Sem 1,89.0,0.5
+132692,SS-10,World Geography,Sem 1,85.1,0.5
+132692,PHOT-10,Photography,Sem 1,81.2,0.5
+132692,ORCH-10,Orchestra,Sem 1,84.4,0.5
+139352,ENG-10,English 10,Sem 1,72.1,0.5
+139352,ENG-10,English 10,Sem 2,74.0,0.5
+139352,MATH-10,Geometry,Sem 1,61.2,0.5
+139352,MATH-10,Geometry,Sem 2,59.0,0
+139352,SCI-10,Chemistry,Sem 1,64.3,0.5
+139352,SCI-10,Chemistry,Sem 2,69.9,0.5
+139352,SS-10,World Geography,Sem 1,75.0,0.5
+139352,SS-10,World Geography,Sem 2,59.4,0
+139352,CS-10,Intro to Computer Science,Sem 1,69.1,0.5
+139352,CS-10,Intro to Computer Science,Sem 2,75.3,0.5
+139352,SPAN-10,Spanish II,Sem 1,61.1,0.5
+139352,SPAN-10,Spanish II,Sem 2,56.6,0
+112905,ENG-8,English 8,Sem 1,79.5,
+112905,ENG-8,English 8,Sem 2,74.3,
+112905,MATH-8,Math 8,Sem 1,76.6,
+112905,MATH-8,Math 8,Sem 2,87.9,
+112905,SCI-8,Science 8,Sem 1,85.9,
+112905,SCI-8,Science 8,Sem 2,85.7,
+112905,SS-8,Social Studies 8,Sem 1,87.9,
+112905,SS-8,Social Studies 8,Sem 2,93.3,
+112905,PE-8,Physical Education 8,Sem 1,91.7,
+112905,PE-8,Physical Education 8,Sem 2,88.6,
+112905,ART-8,Art,Sem 1,96.6,
+112905,ART-8,Art,Sem 2,85.6,
+126733,ENG-7,English 7,Sem 1,78.8,
+126733,ENG-7,English 7,Sem 2,77.8,
+126733,MATH-7,Math 7,Sem 1,87.0,
+126733,MATH-7,Math 7,Sem 2,72.7,
+126733,SCI-7,Science 7,Sem 1,65.6,
+126733,SCI-7,Science 7,Sem 2,69.9,
+126733,SS-7,Social Studies 7,Sem 1,81.8,
+126733,SS-7,Social Studies 7,Sem 2,82.1,
+126733,PE-7,Physical Education 7,Sem 1,85.0,
+126733,PE-7,Physical Education 7,Sem 2,73.6,
+126733,ART-7,Art,Sem 1,72.0,
+126733,ART-7,Art,Sem 2,77.3,
+129141,ENG-8,English 8,Sem 1,46.5,
+129141,ENG-8,English 8,Sem 2,47.1,
+129141,MATH-8,Math 8,Sem 1,40.5,
+129141,MATH-8,Math 8,Sem 2,51.6,
+129141,SCI-8,Science 8,Sem 1,50.3,
+129141,SCI-8,Science 8,Sem 2,56.0,
+129141,SS-8,Social Studies 8,Sem 1,49.4,
+129141,SS-8,Social Studies 8,Sem 2,48.3,
+129141,PE-8,Physical Education 8,Sem 1,47.7,
+129141,PE-8,Physical Education 8,Sem 2,48.0,
+129141,ART-8,Art,Sem 1,40.4,
+129141,ART-8,Art,Sem 2,51.6,
+134353,ENG-12,English 12,Sem 1,65.2,0.5
+134353,ENG-12,English 12,Sem 2,84.1,0.5
+134353,MATH-12,Pre-Calculus,Sem 1,71.6,0.5
+134353,MATH-12,Pre-Calculus,Sem 2,89.4,0.5
+134353,SCI-12,Environmental Science,Sem 1,75.9,0.5
+134353,SCI-12,Environmental Science,Sem 2,85.3,0.5
+134353,SS-12,Government & Economics,Sem 1,90.9,0.5
+134353,SS-12,Government & Economics,Sem 2,84.0,0.5
+134353,ORCH-12,Orchestra,Sem 1,78.0,0.5
+134353,ORCH-12,Orchestra,Sem 2,71.5,0.5
+134353,CS-12,Intro to Computer Science,Sem 1,87.0,0.5
+134353,CS-12,Intro to Computer Science,Sem 2,65.3,0.5
+131809,ENG-8,English 8,Sem 1,93.9,
+131809,ENG-8,English 8,Sem 2,90.2,
+131809,MATH-8,Math 8,Sem 1,86.4,
+131809,MATH-8,Math 8,Sem 2,95.7,
+131809,SCI-8,Science 8,Sem 1,100.0,
+131809,SCI-8,Science 8,Sem 2,88.5,
+131809,SS-8,Social Studies 8,Sem 1,94.5,
+131809,SS-8,Social Studies 8,Sem 2,89.7,
+131809,PE-8,Physical Education 8,Sem 1,86.2,
+131809,PE-8,Physical Education 8,Sem 2,96.7,
+131809,ART-8,Art,Sem 1,100.0,
+131809,ART-8,Art,Sem 2,91.3,
+109578,ENG-6,English 6,Sem 1,100.0,
+109578,ENG-6,English 6,Sem 2,100.0,
+109578,MATH-6,Math 6,Sem 1,100.0,
+109578,MATH-6,Math 6,Sem 2,97.0,
+109578,SCI-6,Science 6,Sem 1,94.8,
+109578,SCI-6,Science 6,Sem 2,100.0,
+109578,SS-6,Social Studies 6,Sem 1,95.7,
+109578,SS-6,Social Studies 6,Sem 2,89.3,
+109578,PE-6,Physical Education 6,Sem 1,100.0,
+109578,PE-6,Physical Education 6,Sem 2,91.7,
+109578,SPAN-6,Spanish I,Sem 1,95.6,
+109578,SPAN-6,Spanish I,Sem 2,100.0,
+118799,ENG-12,English 12,Sem 1,39.7,0
+118799,ENG-12,English 12,Sem 2,39.5,0
+118799,MATH-12,Pre-Calculus,Sem 1,,0
+118799,MATH-12,Pre-Calculus,Sem 2,40.3,0
+118799,SCI-12,Environmental Science,Sem 1,38.5,0
+118799,SCI-12,Environmental Science,Sem 2,44.1,0
+118799,SS-12,Government & Economics,Sem 1,39.2,0
+118799,SS-12,Government & Economics,Sem 2,45.3,0
+118799,ORCH-12,Orchestra,Sem 1,36.8,0
+118799,ORCH-12,Orchestra,Sem 2,31.2,0
+118799,CS-12,Intro to Computer Science,Sem 1,33.0,0
+118799,CS-12,Intro to Computer Science,Sem 2,42.3,0
+104512,ENG-11,English 11,Sem 1,55.7,0
+104512,ENG-11,English 11,Sem 2,67.1,0.5
+104512,MATH-11,Algebra II,Sem 1,62.1,0.5
+104512,MATH-11,Algebra II,Sem 2,72.5,0.5
+104512,SCI-11,Physics,Sem 1,71.5,0.5
+104512,SCI-11,Physics,Sem 2,68.4,0.5
+104512,SS-11,U.S. History,Sem 1,67.1,0.5
+104512,SS-11,U.S. History,Sem 2,60.5,0.5
+104512,CS-11,Intro to Computer Science,Sem 1,65.4,0.5
+104512,CS-11,Intro to Computer Science,Sem 2,65.7,0.5
+104512,HLTH-11,Health,Sem 1,74.8,0.5
+104512,HLTH-11,Health,Sem 2,69.5,0.5
+132314,ENG-11,English 11,Sem 1,45.7,0
+132314,ENG-11,English 11,Sem 2,40.8,0
+132314,MATH-11,Algebra II,Sem 1,46.5,0
+132314,MATH-11,Algebra II,Sem 2,43.0,0
+132314,SCI-11,Physics,Sem 1,46.4,0
+132314,SCI-11,Physics,Sem 2,44.6,0
+132314,SS-11,U.S. History,Sem 1,41.0,0
+132314,SS-11,U.S. History,Sem 2,46.4,0
+132314,ORCH-11,Orchestra,Sem 1,42.4,0
+132314,ORCH-11,Orchestra,Sem 2,44.7,0
+132314,PHOT-11,Photography,Sem 1,44.2,0
+132314,PHOT-11,Photography,Sem 2,50.6,0
+109984,ENG-9,English 9,Sem 1,81.7,0.5
+109984,ENG-9,English 9,Sem 2,85.6,0.5
+109984,MATH-9,Algebra I,Sem 1,86.7,0.5
+109984,MATH-9,Algebra I,Sem 2,82.9,0.5
+109984,SCI-9,Biology,Sem 1,84.6,0.5
+109984,SCI-9,Biology,Sem 2,80.1,0.5
+109984,SS-9,World History,Sem 1,88.1,0.5
+109984,SS-9,World History,Sem 2,83.7,0.5
+109984,PHOT-9,Photography,Sem 1,73.8,0.5
+109984,PHOT-9,Photography,Sem 2,84.3,0.5
+109984,HLTH-9,Health,Sem 1,79.7,0.5
+109984,HLTH-9,Health,Sem 2,85.0,0.5
+121592,ENG-6,English 6,Sem 1,58.9,
+121592,ENG-6,English 6,Sem 2,47.8,
+121592,MATH-6,Math 6,Sem 1,61.2,
+121592,MATH-6,Math 6,Sem 2,54.6,
+121592,SCI-6,Science 6,Sem 1,48.1,
+121592,SCI-6,Science 6,Sem 2,44.3,
+121592,SS-6,Social Studies 6,Sem 1,49.1,
+121592,SS-6,Social Studies 6,Sem 2,46.6,
+121592,PE-6,Physical Education 6,Sem 1,58.0,
+121592,PE-6,Physical Education 6,Sem 2,59.2,
+121592,BAND-6,Band,Sem 1,54.9,
+121592,BAND-6,Band,Sem 2,57.8,
+100801,ENG-9,English 9,Sem 1,78.1,0.5
+100801,ENG-9,English 9,Sem 2,72.7,0.5
+100801,MATH-9,Algebra I,Sem 1,80.6,0.5
+100801,MATH-9,Algebra I,Sem 2,86.8,0.5
+100801,SCI-9,Biology,Sem 1,96.0,0.5
+100801,SCI-9,Biology,Sem 2,73.1,0.5
+100801,SS-9,World History,Sem 1,90.5,0.5
+100801,SS-9,World History,Sem 2,82.0,0.5
+100801,ORCH-9,Orchestra,Sem 1,76.5,0.5
+100801,ORCH-9,Orchestra,Sem 2,81.0,0.5
+100801,PHOT-9,Photography,Sem 1,83.3,0.5
+100801,PHOT-9,Photography,Sem 2,85.9,0.5
+103438,ENG-12,English 12,Sem 1,72.3,0.5
+103438,ENG-12,English 12,Sem 2,75.4,0.5
+103438,MATH-12,Pre-Calculus,Sem 1,82.1,0.5
+103438,MATH-12,Pre-Calculus,Sem 2,74.0,0.5
+103438,SCI-12,Environmental Science,Sem 1,86.0,0.5
+103438,SCI-12,Environmental Science,Sem 2,81.4,0.5
+103438,SS-12,Government & Economics,Sem 1,78.6,0.5
+103438,SS-12,Government & Economics,Sem 2,75.0,0.5
+103438,ART2-12,Ceramics,Sem 1,63.9,0.5
+103438,ART2-12,Ceramics,Sem 2,70.6,0.5
+103438,CS-12,Intro to Computer Science,Sem 1,81.1,0.5
+103438,CS-12,Intro to Computer Science,Sem 2,77.7,0.5
+105249,ENG-7,English 7,Sem 1,85.9,
+105249,ENG-7,English 7,Sem 2,79.0,
+105249,MATH-7,Math 7,Sem 1,83.4,
+105249,MATH-7,Math 7,Sem 2,77.2,
+105249,SCI-7,Science 7,Sem 1,74.0,
+105249,SCI-7,Science 7,Sem 2,83.6,
+105249,SS-7,Social Studies 7,Sem 1,72.7,
+105249,SS-7,Social Studies 7,Sem 2,83.1,
+105249,PE-7,Physical Education 7,Sem 1,85.4,
+105249,PE-7,Physical Education 7,Sem 2,74.2,
+105249,BAND-7,Band,Sem 1,80.9,
+105249,BAND-7,Band,Sem 2,82.9,
+130392,ENG-9,English 9,Sem 1,70.7,0.5
+130392,ENG-9,English 9,Sem 2,66.3,0.5
+130392,MATH-9,Algebra I,Sem 1,66.2,0.5
+130392,MATH-9,Algebra I,Sem 2,68.9,0.5
+130392,SCI-9,Biology,Sem 1,74.7,0.5
+130392,SCI-9,Biology,Sem 2,70.0,0.5
+130392,SS-9,World History,Sem 1,73.2,0.5
+130392,SS-9,World History,Sem 2,70.2,0.5
+130392,ART2-9,Ceramics,Sem 1,74.4,0.5
+130392,ART2-9,Ceramics,Sem 2,75.0,0.5
+130392,HLTH-9,Health,Sem 1,67.2,0.5
+130392,HLTH-9,Health,Sem 2,68.9,0.5
+132213,ENG-7,English 7,Sem 1,71.8,
+132213,ENG-7,English 7,Sem 2,83.4,
+132213,MATH-7,Math 7,Sem 1,75.3,
+132213,MATH-7,Math 7,Sem 2,89.4,
+132213,SCI-7,Science 7,Sem 1,83.5,
+132213,SCI-7,Science 7,Sem 2,95.2,
+132213,SS-7,Social Studies 7,Sem 1,88.0,
+132213,SS-7,Social Studies 7,Sem 2,87.5,
+132213,PE-7,Physical Education 7,Sem 1,86.2,
+132213,PE-7,Physical Education 7,Sem 2,84.4,
+132213,BAND-7,Band,Sem 1,80.2,
+132213,BAND-7,Band,Sem 2,90.1,
+104075,ENG-8,English 8,Sem 1,79.5,
+104075,ENG-8,English 8,Sem 2,68.5,
+104075,MATH-8,Math 8,Sem 1,61.7,
+104075,MATH-8,Math 8,Sem 2,75.2,
+104075,SCI-8,Science 8,Sem 1,76.9,
+104075,SCI-8,Science 8,Sem 2,71.1,
+104075,SS-8,Social Studies 8,Sem 1,82.9,
+104075,SS-8,Social Studies 8,Sem 2,76.2,
+104075,PE-8,Physical Education 8,Sem 1,76.4,
+104075,PE-8,Physical Education 8,Sem 2,78.2,
+104075,BAND-8,Band,Sem 1,80.1,
+104075,BAND-8,Band,Sem 2,73.5,
+123872,ENG-6,English 6,Sem 1,93.6,
+123872,ENG-6,English 6,Sem 2,85.6,
+123872,MATH-6,Math 6,Sem 1,86.2,
+123872,MATH-6,Math 6,Sem 2,97.2,
+123872,SCI-6,Science 6,Sem 1,82.7,
+123872,SCI-6,Science 6,Sem 2,83.1,
+123872,SS-6,Social Studies 6,Sem 1,92.2,
+123872,SS-6,Social Studies 6,Sem 2,91.2,
+123872,PE-6,Physical Education 6,Sem 1,87.6,
+123872,PE-6,Physical Education 6,Sem 2,97.5,
+123872,SPAN-6,Spanish I,Sem 1,79.8,
+123872,SPAN-6,Spanish I,Sem 2,88.4,
+105827,ENG-7,English 7,Sem 1,81.1,
+105827,ENG-7,English 7,Sem 2,79.8,
+105827,MATH-7,Math 7,Sem 1,89.5,
+105827,MATH-7,Math 7,Sem 2,90.4,
+105827,SCI-7,Science 7,Sem 1,77.3,
+105827,SCI-7,Science 7,Sem 2,99.6,
+105827,SS-7,Social Studies 7,Sem 1,88.6,
+105827,SS-7,Social Studies 7,Sem 2,89.7,
+105827,PE-7,Physical Education 7,Sem 1,83.8,
+105827,PE-7,Physical Education 7,Sem 2,78.7,
+105827,BAND-7,Band,Sem 1,95.3,
+105827,BAND-7,Band,Sem 2,71.6,
+117505,ENG-10,English 10,Sem 1,48.9,0
+117505,ENG-10,English 10,Sem 2,63.2,0.5
+117505,MATH-10,Geometry,Sem 1,60.5,0.5
+117505,MATH-10,Geometry,Sem 2,66.4,0.5
+117505,SCI-10,Chemistry,Sem 1,58.3,0
+117505,SCI-10,Chemistry,Sem 2,62.0,0.5
+117505,SS-10,World Geography,Sem 1,51.9,0
+117505,SS-10,World Geography,Sem 2,65.9,0.5
+117505,SPAN-10,Spanish II,Sem 1,54.4,0
+117505,SPAN-10,Spanish II,Sem 2,57.7,0
+117505,HLTH-10,Health,Sem 1,54.5,0
+117505,HLTH-10,Health,Sem 2,56.2,0
+118000,ENG-10,English 10,Sem 1,65.5,0.5
+118000,ENG-10,English 10,Sem 2,63.7,0.5
+118000,MATH-10,Geometry,Sem 1,75.5,0.5
+118000,MATH-10,Geometry,Sem 2,64.2,0.5
+118000,SCI-10,Chemistry,Sem 1,79.7,0.5
+118000,SCI-10,Chemistry,Sem 2,73.5,0.5
+118000,SS-10,World Geography,Sem 1,75.2,0.5
+118000,SS-10,World Geography,Sem 2,69.1,0.5
+118000,CS-10,Intro to Computer Science,Sem 1,67.8,0.5
+118000,CS-10,Intro to Computer Science,Sem 2,68.7,0.5
+118000,ORCH-10,Orchestra,Sem 1,82.1,0.5
+118000,ORCH-10,Orchestra,Sem 2,75.2,0.5
+122386,ENG-8,English 8,Sem 1,65.8,
+122386,ENG-8,English 8,Sem 2,72.2,
+122386,MATH-8,Math 8,Sem 1,80.9,
+122386,MATH-8,Math 8,Sem 2,77.5,
+122386,SCI-8,Science 8,Sem 1,64.7,
+122386,SCI-8,Science 8,Sem 2,64.8,
+122386,SS-8,Social Studies 8,Sem 1,65.1,
+122386,SS-8,Social Studies 8,Sem 2,64.3,
+122386,PE-8,Physical Education 8,Sem 1,63.7,
+122386,PE-8,Physical Education 8,Sem 2,67.3,
+122386,BAND-8,Band,Sem 1,69.5,
+122386,BAND-8,Band,Sem 2,73.0,
+108551,ENG-10,English 10,Sem 1,,0.5
+108551,ENG-10,English 10,Sem 2,64.2,0.5
+108551,MATH-10,Geometry,Sem 1,83.8,0.5
+108551,MATH-10,Geometry,Sem 2,73.1,0.5
+108551,SCI-10,Chemistry,Sem 1,74.6,0.5
+108551,SCI-10,Chemistry,Sem 2,89.7,0.5
+108551,SS-10,World Geography,Sem 1,68.5,0.5
+108551,SS-10,World Geography,Sem 2,65.9,0.5
+108551,PHOT-10,Photography,Sem 1,61.3,0.5
+108551,PHOT-10,Photography,Sem 2,68.7,0.5
+108551,CS-10,Intro to Computer Science,Sem 1,74.4,0.5
+108551,CS-10,Intro to Computer Science,Sem 2,72.9,0.5
+116920,ENG-10,English 10,Sem 1,83.7,0.5
+116920,ENG-10,English 10,Sem 2,85.1,0.5
+116920,MATH-10,Geometry,Sem 1,90.5,0.5
+116920,MATH-10,Geometry,Sem 2,80.0,0.5
+116920,SCI-10,Chemistry,Sem 1,88.0,0.5
+116920,SCI-10,Chemistry,Sem 2,93.1,0.5
+116920,SS-10,World Geography,Sem 1,92.9,0.5
+116920,SS-10,World Geography,Sem 2,86.5,0.5
+116920,ART2-10,Ceramics,Sem 1,90.9,0.5
+116920,ART2-10,Ceramics,Sem 2,93.3,0.5
+116920,ORCH-10,Orchestra,Sem 1,85.0,0.5
+116920,ORCH-10,Orchestra,Sem 2,82.6,0.5
+101833,ENG-11,English 11,Sem 1,69.0,0.5
+101833,ENG-11,English 11,Sem 2,69.4,0.5
+101833,MATH-11,Algebra II,Sem 1,82.5,0.5
+101833,MATH-11,Algebra II,Sem 2,71.4,0.5
+101833,SCI-11,Physics,Sem 1,68.1,0.5
+101833,SCI-11,Physics,Sem 2,70.5,0.5
+101833,SS-11,U.S. History,Sem 1,67.4,0.5
+101833,SS-11,U.S. History,Sem 2,75.7,0.5
+101833,ART2-11,Ceramics,Sem 1,63.2,0.5
+101833,ART2-11,Ceramics,Sem 2,63.2,0.5
+101833,CS-11,Intro to Computer Science,Sem 1,71.9,0.5
+101833,CS-11,Intro to Computer Science,Sem 2,68.9,0.5
+139538,ENG-10,English 10,Sem 1,84.8,0.5
+139538,ENG-10,English 10,Sem 2,70.4,0.5
+139538,MATH-10,Geometry,Sem 1,85.3,0.5
+139538,MATH-10,Geometry,Sem 2,79.5,0.5
+139538,SCI-10,Chemistry,Sem 1,78.4,0.5
+139538,SCI-10,Chemistry,Sem 2,74.8,0.5
+139538,SS-10,World Geography,Sem 1,79.0,0.5
+139538,SS-10,World Geography,Sem 2,80.3,0.5
+139538,PHOT-10,Photography,Sem 1,76.4,0.5
+139538,PHOT-10,Photography,Sem 2,72.1,0.5
+139538,SPAN-10,Spanish II,Sem 1,77.8,0.5
+139538,SPAN-10,Spanish II,Sem 2,80.2,0.5
+110504,ENG-12,English 12,Sem 1,74.8,0.5
+110504,ENG-12,English 12,Sem 2,85.1,0.5
+110504,MATH-12,Pre-Calculus,Sem 1,88.5,0.5
+110504,MATH-12,Pre-Calculus,Sem 2,95.5,0.5
+110504,SCI-12,Environmental Science,Sem 1,100.0,0.5
+110504,SCI-12,Environmental Science,Sem 2,78.8,0.5
+110504,SS-12,Government & Economics,Sem 1,84.5,0.5
+110504,SS-12,Government & Economics,Sem 2,90.0,0.5
+110504,ORCH-12,Orchestra,Sem 1,86.5,0.5
+110504,ORCH-12,Orchestra,Sem 2,83.9,0.5
+110504,PHOT-12,Photography,Sem 1,92.6,0.5
+110504,PHOT-12,Photography,Sem 2,80.0,0.5
+105787,ENG-6,English 6,Sem 1,80.9,
+105787,ENG-6,English 6,Sem 2,80.1,
+105787,MATH-6,Math 6,Sem 1,76.7,
+105787,MATH-6,Math 6,Sem 2,80.2,
+105787,SCI-6,Science 6,Sem 1,72.0,
+105787,SCI-6,Science 6,Sem 2,78.4,
+105787,SS-6,Social Studies 6,Sem 1,80.1,
+105787,SS-6,Social Studies 6,Sem 2,74.4,
+105787,PE-6,Physical Education 6,Sem 1,68.3,
+105787,PE-6,Physical Education 6,Sem 2,80.1,
+105787,ART-6,Art,Sem 1,77.7,
+105787,ART-6,Art,Sem 2,75.2,
+123273,ENG-11,English 11,Sem 1,68.5,0.5
+123273,ENG-11,English 11,Sem 2,81.3,0.5
+123273,MATH-11,Algebra II,Sem 1,74.1,0.5
+123273,MATH-11,Algebra II,Sem 2,63.7,0.5
+123273,SCI-11,Physics,Sem 1,69.9,0.5
+123273,SCI-11,Physics,Sem 2,72.7,0.5
+123273,SS-11,U.S. History,Sem 1,65.8,0.5
+123273,SS-11,U.S. History,Sem 2,75.4,0.5
+123273,ORCH-11,Orchestra,Sem 1,70.2,0.5
+123273,ORCH-11,Orchestra,Sem 2,71.4,0.5
+123273,PHOT-11,Photography,Sem 1,73.2,0.5
+123273,PHOT-11,Photography,Sem 2,78.1,0.5
+123109,ENG-11,English 11,Sem 1,70.5,0.5
+123109,ENG-11,English 11,Sem 2,71.8,0.5
+123109,MATH-11,Algebra II,Sem 1,76.3,0.5
+123109,MATH-11,Algebra II,Sem 2,67.8,0.5
+123109,SCI-11,Physics,Sem 1,68.7,0.5
+123109,SCI-11,Physics,Sem 2,70.4,0.5
+123109,SS-11,U.S. History,Sem 1,62.8,0.5
+123109,SS-11,U.S. History,Sem 2,77.3,0.5
+123109,SPAN-11,Spanish II,Sem 1,59.5,0
+123109,SPAN-11,Spanish II,Sem 2,68.6,0.5
+123109,ART2-11,Ceramics,Sem 1,68.7,0.5
+123109,ART2-11,Ceramics,Sem 2,73.0,0.5
+137530,ENG-11,English 11,Sem 1,62.9,0.5
+137530,MATH-11,Algebra II,Sem 1,67.8,0.5
+137530,SCI-11,Physics,Sem 1,70.8,0.5
+137530,SS-11,U.S. History,Sem 1,74.1,0.5
+137530,PHOT-11,Photography,Sem 1,61.6,0.5
+137530,ART2-11,Ceramics,Sem 1,67.5,0.5
+132220,ENG-9,English 9,Sem 1,74.7,0.5
+132220,ENG-9,English 9,Sem 2,82.1,0.5
+132220,MATH-9,Algebra I,Sem 1,79.7,0.5
+132220,MATH-9,Algebra I,Sem 2,69.6,0.5
+132220,SCI-9,Biology,Sem 1,78.6,0.5
+132220,SCI-9,Biology,Sem 2,76.2,0.5
+132220,SS-9,World History,Sem 1,63.1,0.5
+132220,SS-9,World History,Sem 2,68.1,0.5
+132220,CS-9,Intro to Computer Science,Sem 1,72.7,0.5
+132220,CS-9,Intro to Computer Science,Sem 2,70.7,0.5
+132220,ART2-9,Ceramics,Sem 1,71.8,0.5
+132220,ART2-9,Ceramics,Sem 2,71.7,0.5
+123661,ENG-6,English 6,Sem 1,90.1,
+123661,ENG-6,English 6,Sem 2,85.4,
+123661,MATH-6,Math 6,Sem 1,89.3,
+123661,MATH-6,Math 6,Sem 2,82.8,
+123661,SCI-6,Science 6,Sem 1,79.3,
+123661,SCI-6,Science 6,Sem 2,92.1,
+123661,SS-6,Social Studies 6,Sem 1,79.1,
+123661,SS-6,Social Studies 6,Sem 2,85.3,
+123661,PE-6,Physical Education 6,Sem 1,85.5,
+123661,PE-6,Physical Education 6,Sem 2,79.8,
+123661,ART-6,Art,Sem 1,74.9,
+123661,ART-6,Art,Sem 2,85.1,
+104186,ENG-6,English 6,Sem 1,44.0,
+104186,ENG-6,English 6,Sem 2,41.4,
+104186,MATH-6,Math 6,Sem 1,49.4,
+104186,MATH-6,Math 6,Sem 2,49.3,
+104186,SCI-6,Science 6,Sem 1,51.1,
+104186,SCI-6,Science 6,Sem 2,56.1,
+104186,SS-6,Social Studies 6,Sem 1,48.9,
+104186,SS-6,Social Studies 6,Sem 2,56.2,
+104186,PE-6,Physical Education 6,Sem 1,39.9,
+104186,PE-6,Physical Education 6,Sem 2,48.4,
+104186,SPAN-6,Spanish I,Sem 1,55.3,
+104186,SPAN-6,Spanish I,Sem 2,48.6,
+129861,ENG-10,English 10,Sem 1,65.1,0.5
+129861,ENG-10,English 10,Sem 2,74.3,0.5
+129861,MATH-10,Geometry,Sem 1,69.8,0.5
+129861,MATH-10,Geometry,Sem 2,77.3,0.5
+129861,SCI-10,Chemistry,Sem 1,71.6,0.5
+129861,SCI-10,Chemistry,Sem 2,68.8,0.5
+129861,SS-10,World Geography,Sem 1,73.9,0.5
+129861,SS-10,World Geography,Sem 2,62.0,0.5
+129861,ART2-10,Ceramics,Sem 1,64.9,0.5
+129861,ART2-10,Ceramics,Sem 2,60.8,0.5
+129861,ORCH-10,Orchestra,Sem 1,61.8,0.5
+129861,ORCH-10,Orchestra,Sem 2,69.2,0.5
+110007,ENG-11,English 11,Sem 1,95.7,0.5
+110007,ENG-11,English 11,Sem 2,80.8,0.5
+110007,MATH-11,Algebra II,Sem 1,77.0,0.5
+110007,MATH-11,Algebra II,Sem 2,80.7,0.5
+110007,SCI-11,Physics,Sem 1,89.1,0.5
+110007,SCI-11,Physics,Sem 2,95.2,0.5
+110007,SS-11,U.S. History,Sem 1,79.1,0.5
+110007,SS-11,U.S. History,Sem 2,94.7,0.5
+110007,PHOT-11,Photography,Sem 1,82.3,0.5
+110007,PHOT-11,Photography,Sem 2,82.6,0.5
+110007,SPAN-11,Spanish II,Sem 1,85.5,0.5
+110007,SPAN-11,Spanish II,Sem 2,88.2,0.5
+105646,ENG-10,English 10,Sem 1,92.8,0.5
+105646,MATH-10,Geometry,Sem 1,75.0,0.5
+105646,SCI-10,Chemistry,Sem 1,75.5,0.5
+105646,SS-10,World Geography,Sem 1,76.3,0.5
+105646,CS-10,Intro to Computer Science,Sem 1,74.2,0.5
+105646,ART2-10,Ceramics,Sem 1,75.2,0.5
+134281,ENG-10,English 10,Sem 1,84.6,0.5
+134281,ENG-10,English 10,Sem 2,86.3,0.5
+134281,MATH-10,Geometry,Sem 1,72.9,0.5
+134281,MATH-10,Geometry,Sem 2,75.7,0.5
+134281,SCI-10,Chemistry,Sem 1,78.4,0.5
+134281,SCI-10,Chemistry,Sem 2,84.7,0.5
+134281,SS-10,World Geography,Sem 1,85.5,0.5
+134281,SS-10,World Geography,Sem 2,81.8,0.5
+134281,PHOT-10,Photography,Sem 1,78.2,0.5
+134281,PHOT-10,Photography,Sem 2,82.9,0.5
+134281,ART2-10,Ceramics,Sem 1,78.0,0.5
+134281,ART2-10,Ceramics,Sem 2,88.4,0.5
+134731,ENG-8,English 8,Sem 1,73.9,
+134731,ENG-8,English 8,Sem 2,81.0,
+134731,MATH-8,Math 8,Sem 1,82.1,
+134731,MATH-8,Math 8,Sem 2,67.5,
+134731,SCI-8,Science 8,Sem 1,88.9,
+134731,SCI-8,Science 8,Sem 2,74.9,
+134731,SS-8,Social Studies 8,Sem 1,71.5,
+134731,SS-8,Social Studies 8,Sem 2,75.0,
+134731,PE-8,Physical Education 8,Sem 1,73.3,
+134731,PE-8,Physical Education 8,Sem 2,80.0,
+134731,SPAN-8,Spanish I,Sem 1,84.3,
+134731,SPAN-8,Spanish I,Sem 2,71.1,
+117119,ENG-6,English 6,Sem 1,90.1,
+117119,ENG-6,English 6,Sem 2,68.3,
+117119,MATH-6,Math 6,Sem 1,92.5,
+117119,MATH-6,Math 6,Sem 2,81.1,
+117119,SCI-6,Science 6,Sem 1,84.0,
+117119,SCI-6,Science 6,Sem 2,88.4,
+117119,SS-6,Social Studies 6,Sem 1,81.1,
+117119,SS-6,Social Studies 6,Sem 2,90.8,
+117119,PE-6,Physical Education 6,Sem 1,80.9,
+117119,PE-6,Physical Education 6,Sem 2,76.0,
+117119,SPAN-6,Spanish I,Sem 1,79.5,
+117119,SPAN-6,Spanish I,Sem 2,80.1,
+109470,ENG-6,English 6,Sem 1,82.5,
+109470,ENG-6,English 6,Sem 2,77.3,
+109470,MATH-6,Math 6,Sem 1,93.1,
+109470,MATH-6,Math 6,Sem 2,76.8,
+109470,SCI-6,Science 6,Sem 1,73.7,
+109470,SCI-6,Science 6,Sem 2,77.9,
+109470,SS-6,Social Studies 6,Sem 1,74.2,
+109470,SS-6,Social Studies 6,Sem 2,79.7,
+109470,PE-6,Physical Education 6,Sem 1,81.4,
+109470,PE-6,Physical Education 6,Sem 2,76.4,
+109470,BAND-6,Band,Sem 1,76.4,
+109470,BAND-6,Band,Sem 2,80.7,
+122452,ENG-7,English 7,Sem 1,66.6,
+122452,MATH-7,Math 7,Sem 1,67.6,
+122452,SCI-7,Science 7,Sem 1,68.7,
+122452,SS-7,Social Studies 7,Sem 1,60.5,
+122452,PE-7,Physical Education 7,Sem 1,65.1,
+122452,BAND-7,Band,Sem 1,71.4,
+131512,ENG-9,English 9,Sem 1,58.1,0
+131512,ENG-9,English 9,Sem 2,46.6,0
+131512,MATH-9,Algebra I,Sem 1,52.6,0
+131512,MATH-9,Algebra I,Sem 2,55.4,0
+131512,SCI-9,Biology,Sem 1,60.8,0.5
+131512,SCI-9,Biology,Sem 2,47.3,0
+131512,SS-9,World History,Sem 1,49.1,0
+131512,SS-9,World History,Sem 2,63.7,0.5
+131512,HLTH-9,Health,Sem 1,51.9,0
+131512,HLTH-9,Health,Sem 2,41.0,0
+131512,CS-9,Intro to Computer Science,Sem 1,49.1,0
+131512,CS-9,Intro to Computer Science,Sem 2,50.7,0
+101677,ENG-12,English 12,Sem 1,50.6,0
+101677,MATH-12,Pre-Calculus,Sem 1,53.4,0
+101677,SCI-12,Environmental Science,Sem 1,64.3,0.5
+101677,SS-12,Government & Economics,Sem 1,43.4,0
+101677,PHOT-12,Photography,Sem 1,42.9,0
+101677,HLTH-12,Health,Sem 1,36.1,0
+119266,ENG-11,English 11,Sem 1,87.0,0.5
+119266,ENG-11,English 11,Sem 2,73.0,0.5
+119266,MATH-11,Algebra II,Sem 1,75.4,0.5
+119266,MATH-11,Algebra II,Sem 2,63.1,0.5
+119266,SCI-11,Physics,Sem 1,87.3,0.5
+119266,SCI-11,Physics,Sem 2,77.4,0.5
+119266,SS-11,U.S. History,Sem 1,71.7,0.5
+119266,SS-11,U.S. History,Sem 2,77.5,0.5
+119266,PHOT-11,Photography,Sem 1,70.1,0.5
+119266,PHOT-11,Photography,Sem 2,71.2,0.5
+119266,SPAN-11,Spanish II,Sem 1,76.2,0.5
+119266,SPAN-11,Spanish II,Sem 2,79.4,0.5
+108699,ENG-6,English 6,Sem 1,72.1,
+108699,ENG-6,English 6,Sem 2,74.1,
+108699,MATH-6,Math 6,Sem 1,73.3,
+108699,MATH-6,Math 6,Sem 2,81.3,
+108699,SCI-6,Science 6,Sem 1,84.0,
+108699,SCI-6,Science 6,Sem 2,85.4,
+108699,SS-6,Social Studies 6,Sem 1,78.3,
+108699,SS-6,Social Studies 6,Sem 2,88.4,
+108699,PE-6,Physical Education 6,Sem 1,76.2,
+108699,PE-6,Physical Education 6,Sem 2,83.1,
+108699,ART-6,Art,Sem 1,74.8,
+108699,ART-6,Art,Sem 2,77.1,
+106564,ENG-9,English 9,Sem 1,83.0,0.5
+106564,ENG-9,English 9,Sem 2,76.9,0.5
+106564,MATH-9,Algebra I,Sem 1,92.5,0.5
+106564,MATH-9,Algebra I,Sem 2,87.7,0.5
+106564,SCI-9,Biology,Sem 1,79.3,0.5
+106564,SCI-9,Biology,Sem 2,80.4,0.5
+106564,SS-9,World History,Sem 1,86.6,0.5
+106564,SS-9,World History,Sem 2,74.4,0.5
+106564,ORCH-9,Orchestra,Sem 1,66.2,0.5
+106564,ORCH-9,Orchestra,Sem 2,76.9,0.5
+106564,CS-9,Intro to Computer Science,Sem 1,72.6,0.5
+106564,CS-9,Intro to Computer Science,Sem 2,78.9,0.5
+122409,ENG-6,English 6,Sem 1,77.8,
+122409,ENG-6,English 6,Sem 2,88.9,
+122409,MATH-6,Math 6,Sem 1,93.6,
+122409,MATH-6,Math 6,Sem 2,73.3,
+122409,SCI-6,Science 6,Sem 1,81.2,
+122409,SCI-6,Science 6,Sem 2,82.2,
+122409,SS-6,Social Studies 6,Sem 1,90.1,
+122409,SS-6,Social Studies 6,Sem 2,82.1,
+122409,PE-6,Physical Education 6,Sem 1,86.3,
+122409,PE-6,Physical Education 6,Sem 2,90.2,
+122409,BAND-6,Band,Sem 1,76.6,
+122409,BAND-6,Band,Sem 2,86.2,
+117796,ENG-12,English 12,Sem 1,84.6,0.5
+117796,ENG-12,English 12,Sem 2,84.8,0.5
+117796,MATH-12,Pre-Calculus,Sem 1,81.5,0.5
+117796,MATH-12,Pre-Calculus,Sem 2,83.6,0.5
+117796,SCI-12,Environmental Science,Sem 1,87.6,0.5
+117796,SCI-12,Environmental Science,Sem 2,84.5,0.5
+117796,SS-12,Government & Economics,Sem 1,78.1,0.5
+117796,SS-12,Government & Economics,Sem 2,81.1,0.5
+117796,ART2-12,Ceramics,Sem 1,81.8,0.5
+117796,ART2-12,Ceramics,Sem 2,91.7,0.5
+117796,ORCH-12,Orchestra,Sem 1,90.4,0.5
+117796,ORCH-12,Orchestra,Sem 2,72.0,0.5
+111448,ENG-8,English 8,Sem 1,77.4,
+111448,ENG-8,English 8,Sem 2,82.3,
+111448,MATH-8,Math 8,Sem 1,74.4,
+111448,MATH-8,Math 8,Sem 2,82.1,
+111448,SCI-8,Science 8,Sem 1,70.8,
+111448,SCI-8,Science 8,Sem 2,80.5,
+111448,SS-8,Social Studies 8,Sem 1,77.5,
+111448,SS-8,Social Studies 8,Sem 2,75.0,
+111448,PE-8,Physical Education 8,Sem 1,70.2,
+111448,PE-8,Physical Education 8,Sem 2,69.4,
+111448,ART-8,Art,Sem 1,72.9,
+111448,ART-8,Art,Sem 2,75.4,
+126709,ENG-11,English 11,Sem 1,79.3,0.5
+126709,ENG-11,English 11,Sem 2,77.9,0.5
+126709,MATH-11,Algebra II,Sem 1,79.7,0.5
+126709,MATH-11,Algebra II,Sem 2,72.1,0.5
+126709,SCI-11,Physics,Sem 1,94.2,0.5
+126709,SCI-11,Physics,Sem 2,77.8,0.5
+126709,SS-11,U.S. History,Sem 1,81.6,0.5
+126709,SS-11,U.S. History,Sem 2,76.8,0.5
+126709,PHOT-11,Photography,Sem 1,80.1,0.5
+126709,PHOT-11,Photography,Sem 2,85.6,0.5
+126709,HLTH-11,Health,Sem 1,71.9,0.5
+126709,HLTH-11,Health,Sem 2,71.7,0.5
+106058,ENG-12,English 12,Sem 1,76.1,0.5
+106058,ENG-12,English 12,Sem 2,63.8,0.5
+106058,MATH-12,Pre-Calculus,Sem 1,81.0,0.5
+106058,MATH-12,Pre-Calculus,Sem 2,73.3,0.5
+106058,SCI-12,Environmental Science,Sem 1,81.0,0.5
+106058,SCI-12,Environmental Science,Sem 2,78.0,0.5
+106058,SS-12,Government & Economics,Sem 1,87.6,0.5
+106058,SS-12,Government & Economics,Sem 2,75.0,0.5
+106058,PHOT-12,Photography,Sem 1,76.4,0.5
+106058,PHOT-12,Photography,Sem 2,79.2,0.5
+106058,HLTH-12,Health,Sem 1,74.8,0.5
+106058,HLTH-12,Health,Sem 2,76.0,0.5
+108491,ENG-7,English 7,Sem 1,73.9,
+108491,ENG-7,English 7,Sem 2,69.7,
+108491,MATH-7,Math 7,Sem 1,70.1,
+108491,MATH-7,Math 7,Sem 2,67.8,
+108491,SCI-7,Science 7,Sem 1,78.5,
+108491,SCI-7,Science 7,Sem 2,77.0,
+108491,SS-7,Social Studies 7,Sem 1,78.1,
+108491,SS-7,Social Studies 7,Sem 2,81.1,
+108491,PE-7,Physical Education 7,Sem 1,82.2,
+108491,PE-7,Physical Education 7,Sem 2,73.0,
+108491,SPAN-7,Spanish I,Sem 1,72.4,
+108491,SPAN-7,Spanish I,Sem 2,76.4,
+130043,ENG-7,English 7,Sem 1,48.1,
+130043,ENG-7,English 7,Sem 2,56.6,
+130043,MATH-7,Math 7,Sem 1,38.2,
+130043,MATH-7,Math 7,Sem 2,38.5,
+130043,SCI-7,Science 7,Sem 1,56.7,
+130043,SCI-7,Science 7,Sem 2,51.9,
+130043,SS-7,Social Studies 7,Sem 1,60.0,
+130043,SS-7,Social Studies 7,Sem 2,46.7,
+130043,PE-7,Physical Education 7,Sem 1,44.0,
+130043,PE-7,Physical Education 7,Sem 2,62.0,
+130043,SPAN-7,Spanish I,Sem 1,43.4,
+130043,SPAN-7,Spanish I,Sem 2,34.5,
+114927,ENG-12,English 12,Sem 1,83.1,0.5
+114927,ENG-12,English 12,Sem 2,73.5,0.5
+114927,MATH-12,Pre-Calculus,Sem 1,73.6,0.5
+114927,MATH-12,Pre-Calculus,Sem 2,76.9,0.5
+114927,SCI-12,Environmental Science,Sem 1,84.4,0.5
+114927,SCI-12,Environmental Science,Sem 2,72.7,0.5
+114927,SS-12,Government & Economics,Sem 1,73.1,0.5
+114927,SS-12,Government & Economics,Sem 2,77.0,0.5
+114927,ART2-12,Ceramics,Sem 1,80.7,0.5
+114927,ART2-12,Ceramics,Sem 2,75.1,0.5
+114927,ORCH-12,Orchestra,Sem 1,73.7,0.5
+114927,ORCH-12,Orchestra,Sem 2,74.9,0.5
+130260,ENG-10,English 10,Sem 1,96.3,0.5
+130260,ENG-10,English 10,Sem 2,90.6,0.5
+130260,MATH-10,Geometry,Sem 1,87.0,0.5
+130260,MATH-10,Geometry,Sem 2,89.0,0.5
+130260,SCI-10,Chemistry,Sem 1,88.8,0.5
+130260,SCI-10,Chemistry,Sem 2,85.6,0.5
+130260,SS-10,World Geography,Sem 1,91.4,0.5
+130260,SS-10,World Geography,Sem 2,86.1,0.5
+130260,CS-10,Intro to Computer Science,Sem 1,86.1,0.5
+130260,CS-10,Intro to Computer Science,Sem 2,73.5,0.5
+130260,ORCH-10,Orchestra,Sem 1,100.0,0.5
+130260,ORCH-10,Orchestra,Sem 2,88.9,0.5
+104678,ENG-6,English 6,Sem 1,87.7,
+104678,ENG-6,English 6,Sem 2,88.0,
+104678,MATH-6,Math 6,Sem 1,86.7,
+104678,MATH-6,Math 6,Sem 2,76.4,
+104678,SCI-6,Science 6,Sem 1,78.0,
+104678,SCI-6,Science 6,Sem 2,85.6,
+104678,SS-6,Social Studies 6,Sem 1,79.1,
+104678,SS-6,Social Studies 6,Sem 2,79.3,
+104678,PE-6,Physical Education 6,Sem 1,79.7,
+104678,PE-6,Physical Education 6,Sem 2,86.5,
+104678,BAND-6,Band,Sem 1,76.6,
+104678,BAND-6,Band,Sem 2,81.4,
+126480,ENG-11,English 11,Sem 1,64.6,0.5
+126480,ENG-11,English 11,Sem 2,87.4,0.5
+126480,MATH-11,Algebra II,Sem 1,74.6,0.5
+126480,MATH-11,Algebra II,Sem 2,69.4,0.5
+126480,SCI-11,Physics,Sem 1,81.4,0.5
+126480,SCI-11,Physics,Sem 2,75.3,0.5
+126480,SS-11,U.S. History,Sem 1,66.5,0.5
+126480,SS-11,U.S. History,Sem 2,68.2,0.5
+126480,PHOT-11,Photography,Sem 1,66.8,0.5
+126480,PHOT-11,Photography,Sem 2,71.7,0.5
+126480,SPAN-11,Spanish II,Sem 1,76.2,0.5
+126480,SPAN-11,Spanish II,Sem 2,65.3,0.5
+111491,ENG-7,English 7,Sem 1,71.4,
+111491,ENG-7,English 7,Sem 2,78.8,
+111491,MATH-7,Math 7,Sem 1,69.2,
+111491,MATH-7,Math 7,Sem 2,73.2,
+111491,SCI-7,Science 7,Sem 1,77.2,
+111491,SCI-7,Science 7,Sem 2,73.8,
+111491,SS-7,Social Studies 7,Sem 1,56.9,
+111491,SS-7,Social Studies 7,Sem 2,66.5,
+111491,PE-7,Physical Education 7,Sem 1,69.0,
+111491,PE-7,Physical Education 7,Sem 2,75.9,
+111491,SPAN-7,Spanish I,Sem 1,70.3,
+111491,SPAN-7,Spanish I,Sem 2,69.3,
+101386,ENG-12,English 12,Sem 1,35.1,0
+101386,ENG-12,English 12,Sem 2,25.0,0
+101386,MATH-12,Pre-Calculus,Sem 1,38.7,0
+101386,MATH-12,Pre-Calculus,Sem 2,49.7,0
+101386,SCI-12,Environmental Science,Sem 1,34.0,0
+101386,SCI-12,Environmental Science,Sem 2,39.6,0
+101386,SS-12,Government & Economics,Sem 1,47.3,0
+101386,SS-12,Government & Economics,Sem 2,35.1,0
+101386,SPAN-12,Spanish II,Sem 1,32.9,0
+101386,SPAN-12,Spanish II,Sem 2,41.0,0
+101386,ART2-12,Ceramics,Sem 1,25.0,0
+101386,ART2-12,Ceramics,Sem 2,36.7,0
+114006,ENG-12,English 12,Sem 1,65.1,0.5
+114006,ENG-12,English 12,Sem 2,81.4,0.5
+114006,MATH-12,Pre-Calculus,Sem 1,86.5,0.5
+114006,MATH-12,Pre-Calculus,Sem 2,82.2,0.5
+114006,SCI-12,Environmental Science,Sem 1,82.4,0.5
+114006,SCI-12,Environmental Science,Sem 2,72.1,0.5
+114006,SS-12,Government & Economics,Sem 1,71.0,0.5
+114006,SS-12,Government & Economics,Sem 2,88.2,0.5
+114006,ORCH-12,Orchestra,Sem 1,76.2,0.5
+114006,ORCH-12,Orchestra,Sem 2,70.0,0.5
+114006,ART2-12,Ceramics,Sem 1,80.9,0.5
+114006,ART2-12,Ceramics,Sem 2,77.3,0.5
+112725,ENG-6,English 6,Sem 1,63.2,
+112725,ENG-6,English 6,Sem 2,70.7,
+112725,MATH-6,Math 6,Sem 1,63.1,
+112725,MATH-6,Math 6,Sem 2,67.3,
+112725,SCI-6,Science 6,Sem 1,58.8,
+112725,SCI-6,Science 6,Sem 2,75.5,
+112725,SS-6,Social Studies 6,Sem 1,71.6,
+112725,SS-6,Social Studies 6,Sem 2,68.6,
+112725,PE-6,Physical Education 6,Sem 1,48.6,
+112725,PE-6,Physical Education 6,Sem 2,55.9,
+112725,BAND-6,Band,Sem 1,66.1,
+112725,BAND-6,Band,Sem 2,66.5,
+129782,ENG-11,English 11,Sem 1,83.3,0.5
+129782,ENG-11,English 11,Sem 2,80.5,0.5
+129782,MATH-11,Algebra II,Sem 1,85.3,0.5
+129782,MATH-11,Algebra II,Sem 2,80.2,0.5
+129782,SCI-11,Physics,Sem 1,82.5,0.5
+129782,SCI-11,Physics,Sem 2,93.5,0.5
+129782,SS-11,U.S. History,Sem 1,76.1,0.5
+129782,SS-11,U.S. History,Sem 2,82.3,0.5
+129782,HLTH-11,Health,Sem 1,81.9,0.5
+129782,HLTH-11,Health,Sem 2,83.5,0.5
+129782,SPAN-11,Spanish II,Sem 1,83.0,0.5
+129782,SPAN-11,Spanish II,Sem 2,87.8,0.5
+136261,ENG-12,English 12,Sem 1,67.5,0.5
+136261,ENG-12,English 12,Sem 2,78.5,0.5
+136261,MATH-12,Pre-Calculus,Sem 1,58.4,0
+136261,MATH-12,Pre-Calculus,Sem 2,74.0,0.5
+136261,SCI-12,Environmental Science,Sem 1,75.0,0.5
+136261,SCI-12,Environmental Science,Sem 2,75.7,0.5
+136261,SS-12,Government & Economics,Sem 1,66.2,0.5
+136261,SS-12,Government & Economics,Sem 2,73.2,0.5
+136261,ORCH-12,Orchestra,Sem 1,78.7,0.5
+136261,ORCH-12,Orchestra,Sem 2,51.8,0
+136261,PHOT-12,Photography,Sem 1,71.8,0.5
+136261,PHOT-12,Photography,Sem 2,74.1,0.5
+114556,ENG-11,English 11,Sem 1,69.2,0.5
+114556,ENG-11,English 11,Sem 2,70.5,0.5
+114556,MATH-11,Algebra II,Sem 1,60.9,0.5
+114556,MATH-11,Algebra II,Sem 2,71.5,0.5
+114556,SCI-11,Physics,Sem 1,70.9,0.5
+114556,SCI-11,Physics,Sem 2,63.7,0.5
+114556,SS-11,U.S. History,Sem 1,80.3,0.5
+114556,SS-11,U.S. History,Sem 2,68.8,0.5
+114556,SPAN-11,Spanish II,Sem 1,70.7,0.5
+114556,SPAN-11,Spanish II,Sem 2,74.0,0.5
+114556,PHOT-11,Photography,Sem 1,79.0,0.5
+114556,PHOT-11,Photography,Sem 2,67.5,0.5
+102424,ENG-8,English 8,Sem 1,65.3,
+102424,ENG-8,English 8,Sem 2,75.4,
+102424,MATH-8,Math 8,Sem 1,66.3,
+102424,MATH-8,Math 8,Sem 2,74.2,
+102424,SCI-8,Science 8,Sem 1,70.8,
+102424,SCI-8,Science 8,Sem 2,71.6,
+102424,SS-8,Social Studies 8,Sem 1,65.7,
+102424,SS-8,Social Studies 8,Sem 2,76.5,
+102424,PE-8,Physical Education 8,Sem 1,80.2,
+102424,PE-8,Physical Education 8,Sem 2,61.1,
+102424,ART-8,Art,Sem 1,73.5,
+102424,ART-8,Art,Sem 2,83.8,
+139447,ENG-6,English 6,Sem 1,85.1,
+139447,ENG-6,English 6,Sem 2,87.2,
+139447,MATH-6,Math 6,Sem 1,74.2,
+139447,MATH-6,Math 6,Sem 2,83.8,
+139447,SCI-6,Science 6,Sem 1,86.1,
+139447,SCI-6,Science 6,Sem 2,92.7,
+139447,SS-6,Social Studies 6,Sem 1,84.6,
+139447,SS-6,Social Studies 6,Sem 2,86.1,
+139447,PE-6,Physical Education 6,Sem 1,86.2,
+139447,PE-6,Physical Education 6,Sem 2,86.5,
+139447,SPAN-6,Spanish I,Sem 1,86.5,
+139447,SPAN-6,Spanish I,Sem 2,87.9,
+115396,ENG-9,English 9,Sem 1,72.4,0.5
+115396,ENG-9,English 9,Sem 2,86.8,0.5
+115396,MATH-9,Algebra I,Sem 1,73.5,0.5
+115396,MATH-9,Algebra I,Sem 2,79.3,0.5
+115396,SCI-9,Biology,Sem 1,80.0,0.5
+115396,SCI-9,Biology,Sem 2,78.2,0.5
+115396,SS-9,World History,Sem 1,67.6,0.5
+115396,SS-9,World History,Sem 2,84.0,0.5
+115396,ART2-9,Ceramics,Sem 1,70.7,0.5
+115396,ART2-9,Ceramics,Sem 2,75.3,0.5
+115396,ORCH-9,Orchestra,Sem 1,76.1,0.5
+115396,ORCH-9,Orchestra,Sem 2,71.4,0.5
+121394,ENG-8,English 8,Sem 1,68.3,
+121394,ENG-8,English 8,Sem 2,68.3,
+121394,MATH-8,Math 8,Sem 1,65.2,
+121394,MATH-8,Math 8,Sem 2,60.0,
+121394,SCI-8,Science 8,Sem 1,75.7,
+121394,SCI-8,Science 8,Sem 2,79.2,
+121394,SS-8,Social Studies 8,Sem 1,62.7,
+121394,SS-8,Social Studies 8,Sem 2,69.1,
+121394,PE-8,Physical Education 8,Sem 1,67.7,
+121394,PE-8,Physical Education 8,Sem 2,69.5,
+121394,BAND-8,Band,Sem 1,71.6,
+121394,BAND-8,Band,Sem 2,69.0,
+121562,ENG-7,English 7,Sem 1,95.5,
+121562,ENG-7,English 7,Sem 2,83.8,
+121562,MATH-7,Math 7,Sem 1,80.3,
+121562,MATH-7,Math 7,Sem 2,79.6,
+121562,SCI-7,Science 7,Sem 1,80.4,
+121562,SCI-7,Science 7,Sem 2,85.0,
+121562,SS-7,Social Studies 7,Sem 1,74.4,
+121562,SS-7,Social Studies 7,Sem 2,88.3,
+121562,PE-7,Physical Education 7,Sem 1,76.7,
+121562,PE-7,Physical Education 7,Sem 2,82.7,
+121562,ART-7,Art,Sem 1,70.3,
+121562,ART-7,Art,Sem 2,89.8,
+120030,ENG-7,English 7,Sem 1,80.3,
+120030,ENG-7,English 7,Sem 2,83.5,
+120030,MATH-7,Math 7,Sem 1,81.0,
+120030,MATH-7,Math 7,Sem 2,86.8,
+120030,SCI-7,Science 7,Sem 1,84.1,
+120030,SCI-7,Science 7,Sem 2,89.4,
+120030,SS-7,Social Studies 7,Sem 1,79.0,
+120030,SS-7,Social Studies 7,Sem 2,93.5,
+120030,PE-7,Physical Education 7,Sem 1,81.5,
+120030,PE-7,Physical Education 7,Sem 2,84.0,
+120030,ART-7,Art,Sem 1,89.5,
+120030,ART-7,Art,Sem 2,81.8,
+122266,ENG-9,English 9,Sem 1,90.5,0.5
+122266,ENG-9,English 9,Sem 2,73.3,0.5
+122266,MATH-9,Algebra I,Sem 1,80.4,0.5
+122266,MATH-9,Algebra I,Sem 2,95.0,0.5
+122266,SCI-9,Biology,Sem 1,77.2,0.5
+122266,SCI-9,Biology,Sem 2,70.2,0.5
+122266,SS-9,World History,Sem 1,78.7,0.5
+122266,SS-9,World History,Sem 2,93.4,0.5
+122266,PHOT-9,Photography,Sem 1,83.7,0.5
+122266,PHOT-9,Photography,Sem 2,83.8,0.5
+122266,ART2-9,Ceramics,Sem 1,73.8,0.5
+122266,ART2-9,Ceramics,Sem 2,80.8,0.5
+139707,ENG-8,English 8,Sem 1,90.6,
+139707,MATH-8,Math 8,Sem 1,91.6,
+139707,SCI-8,Science 8,Sem 1,79.3,
+139707,SS-8,Social Studies 8,Sem 1,86.4,
+139707,PE-8,Physical Education 8,Sem 1,87.7,
+139707,ART-8,Art,Sem 1,102.3,
+100100,ENG-10,English 10,Sem 1,69.9,0.5
+100100,ENG-10,English 10,Sem 2,71.8,0.5
+100100,MATH-10,Geometry,Sem 1,78.6,0.5
+100100,MATH-10,Geometry,Sem 2,76.3,0.5
+100100,SCI-10,Chemistry,Sem 1,68.8,0.5
+100100,SCI-10,Chemistry,Sem 2,76.1,0.5
+100100,SS-10,World Geography,Sem 1,75.6,0.5
+100100,SS-10,World Geography,Sem 2,72.1,0.5
+100100,PHOT-10,Photography,Sem 1,70.3,0.5
+100100,PHOT-10,Photography,Sem 2,70.6,0.5
+100100,HLTH-10,Health,Sem 1,81.0,0.5
+100100,HLTH-10,Health,Sem 2,79.8,0.5
+138886,ENG-9,English 9,Sem 1,71.9,0.5
+138886,MATH-9,Algebra I,Sem 1,79.2,0.5
+138886,SCI-9,Biology,Sem 1,80.2,0.5
+138886,SS-9,World History,Sem 1,84.3,0.5
+138886,ART2-9,Ceramics,Sem 1,85.3,0.5
+138886,SPAN-9,Spanish II,Sem 1,75.2,0.5
+113371,ENG-7,English 7,Sem 1,77.4,
+113371,ENG-7,English 7,Sem 2,84.6,
+113371,MATH-7,Math 7,Sem 1,80.5,
+113371,MATH-7,Math 7,Sem 2,78.3,
+113371,SCI-7,Science 7,Sem 1,75.8,
+113371,SCI-7,Science 7,Sem 2,79.7,
+113371,SS-7,Social Studies 7,Sem 1,98.9,
+113371,SS-7,Social Studies 7,Sem 2,74.7,
+113371,PE-7,Physical Education 7,Sem 1,89.9,
+113371,PE-7,Physical Education 7,Sem 2,,
+113371,ART-7,Art,Sem 1,92.7,
+113371,ART-7,Art,Sem 2,85.3,
+107961,ENG-6,English 6,Sem 1,68.2,
+107961,ENG-6,English 6,Sem 2,67.6,
+107961,MATH-6,Math 6,Sem 1,82.5,
+107961,MATH-6,Math 6,Sem 2,77.4,
+107961,SCI-6,Science 6,Sem 1,86.5,
+107961,SCI-6,Science 6,Sem 2,69.9,
+107961,SS-6,Social Studies 6,Sem 1,70.4,
+107961,SS-6,Social Studies 6,Sem 2,69.1,
+107961,PE-6,Physical Education 6,Sem 1,80.0,
+107961,PE-6,Physical Education 6,Sem 2,80.4,
+107961,ART-6,Art,Sem 1,68.5,
+107961,ART-6,Art,Sem 2,70.5,
+116494,ENG-8,English 8,Sem 1,85.8,
+116494,ENG-8,English 8,Sem 2,97.5,
+116494,MATH-8,Math 8,Sem 1,89.7,
+116494,MATH-8,Math 8,Sem 2,77.9,
+116494,SCI-8,Science 8,Sem 1,83.3,
+116494,SCI-8,Science 8,Sem 2,90.1,
+116494,SS-8,Social Studies 8,Sem 1,97.7,
+116494,SS-8,Social Studies 8,Sem 2,100.0,
+116494,PE-8,Physical Education 8,Sem 1,92.0,
+116494,PE-8,Physical Education 8,Sem 2,84.1,
+116494,BAND-8,Band,Sem 1,80.5,
+116494,BAND-8,Band,Sem 2,93.6,
+138337,ENG-8,English 8,Sem 1,77.5,
+138337,ENG-8,English 8,Sem 2,63.0,
+138337,MATH-8,Math 8,Sem 1,69.0,
+138337,MATH-8,Math 8,Sem 2,69.3,
+138337,SCI-8,Science 8,Sem 1,74.2,
+138337,SCI-8,Science 8,Sem 2,74.5,
+138337,SS-8,Social Studies 8,Sem 1,78.4,
+138337,SS-8,Social Studies 8,Sem 2,72.8,
+138337,PE-8,Physical Education 8,Sem 1,67.4,
+138337,PE-8,Physical Education 8,Sem 2,65.6,
+138337,BAND-8,Band,Sem 1,75.4,
+138337,BAND-8,Band,Sem 2,80.0,
+129405,ENG-11,English 11,Sem 1,74.1,0.5
+129405,ENG-11,English 11,Sem 2,68.1,0.5
+129405,MATH-11,Algebra II,Sem 1,78.5,0.5
+129405,MATH-11,Algebra II,Sem 2,82.8,0.5
+129405,SCI-11,Physics,Sem 1,72.2,0.5
+129405,SCI-11,Physics,Sem 2,80.3,0.5
+129405,SS-11,U.S. History,Sem 1,75.4,0.5
+129405,SS-11,U.S. History,Sem 2,71.8,0.5
+129405,SPAN-11,Spanish II,Sem 1,76.9,0.5
+129405,SPAN-11,Spanish II,Sem 2,72.9,0.5
+129405,CS-11,Intro to Computer Science,Sem 1,84.5,0.5
+129405,CS-11,Intro to Computer Science,Sem 2,80.7,0.5
+126264,ENG-11,English 11,Sem 1,82.5,0.5
+126264,ENG-11,English 11,Sem 2,75.3,0.5
+126264,MATH-11,Algebra II,Sem 1,73.3,0.5
+126264,MATH-11,Algebra II,Sem 2,80.7,0.5
+126264,SCI-11,Physics,Sem 1,70.2,0.5
+126264,SCI-11,Physics,Sem 2,86.4,0.5
+126264,SS-11,U.S. History,Sem 1,79.0,0.5
+126264,SS-11,U.S. History,Sem 2,78.7,0.5
+126264,HLTH-11,Health,Sem 1,85.5,0.5
+126264,HLTH-11,Health,Sem 2,76.4,0.5
+126264,ORCH-11,Orchestra,Sem 1,81.0,0.5
+126264,ORCH-11,Orchestra,Sem 2,75.8,0.5
+108466,ENG-10,English 10,Sem 1,70.5,0.5
+108466,ENG-10,English 10,Sem 2,65.3,0.5
+108466,MATH-10,Geometry,Sem 1,70.3,0.5
+108466,MATH-10,Geometry,Sem 2,68.7,0.5
+108466,SCI-10,Chemistry,Sem 1,70.1,0.5
+108466,SCI-10,Chemistry,Sem 2,76.4,0.5
+108466,SS-10,World Geography,Sem 1,71.3,0.5
+108466,SS-10,World Geography,Sem 2,78.0,0.5
+108466,CS-10,Intro to Computer Science,Sem 1,64.9,0.5
+108466,CS-10,Intro to Computer Science,Sem 2,65.0,0.5
+108466,HLTH-10,Health,Sem 1,70.6,0.5
+108466,HLTH-10,Health,Sem 2,62.3,0.5
+110723,ENG-8,English 8,Sem 1,59.1,
+110723,MATH-8,Math 8,Sem 1,75.5,
+110723,SCI-8,Science 8,Sem 1,69.5,
+110723,SS-8,Social Studies 8,Sem 1,66.5,
+110723,PE-8,Physical Education 8,Sem 1,65.0,
+110723,BAND-8,Band,Sem 1,70.3,
+118547,ENG-9,English 9,Sem 1,68.7,0.5
+118547,ENG-9,English 9,Sem 2,73.0,0.5
+118547,MATH-9,Algebra I,Sem 1,75.0,0.5
+118547,MATH-9,Algebra I,Sem 2,76.8,0.5
+118547,SCI-9,Biology,Sem 1,74.2,0.5
+118547,SCI-9,Biology,Sem 2,69.0,0.5
+118547,SS-9,World History,Sem 1,62.3,0.5
+118547,SS-9,World History,Sem 2,65.1,0.5
+118547,CS-9,Intro to Computer Science,Sem 1,61.6,0.5
+118547,CS-9,Intro to Computer Science,Sem 2,66.9,0.5
+118547,SPAN-9,Spanish II,Sem 1,65.8,0.5
+118547,SPAN-9,Spanish II,Sem 2,73.3,0.5
+129404,ENG-11,English 11,Sem 1,72.3,0.5
+129404,ENG-11,English 11,Sem 2,66.4,0.5
+129404,MATH-11,Algebra II,Sem 1,81.0,0.5
+129404,MATH-11,Algebra II,Sem 2,77.0,0.5
+129404,SCI-11,Physics,Sem 1,79.0,0.5
+129404,SCI-11,Physics,Sem 2,72.5,0.5
+129404,SS-11,U.S. History,Sem 1,78.8,0.5
+129404,SS-11,U.S. History,Sem 2,81.0,0.5
+129404,SPAN-11,Spanish II,Sem 1,68.1,0.5
+129404,SPAN-11,Spanish II,Sem 2,77.3,0.5
+129404,ART2-11,Ceramics,Sem 1,65.7,0.5
+129404,ART2-11,Ceramics,Sem 2,74.5,0.5
+131208,ENG-10,English 10,Sem 1,53.1,0
+131208,ENG-10,English 10,Sem 2,41.9,0
+131208,MATH-10,Geometry,Sem 1,50.1,0
+131208,MATH-10,Geometry,Sem 2,54.6,0
+131208,SCI-10,Chemistry,Sem 1,52.5,0
+131208,SCI-10,Chemistry,Sem 2,61.6,0.5
+131208,SS-10,World Geography,Sem 1,53.8,0
+131208,SS-10,World Geography,Sem 2,51.6,0
+131208,SPAN-10,Spanish II,Sem 1,59.6,0
+131208,SPAN-10,Spanish II,Sem 2,52.9,0
+131208,ART2-10,Ceramics,Sem 1,53.1,0
+131208,ART2-10,Ceramics,Sem 2,54.0,0
+124333,ENG-8,English 8,Sem 1,49.4,
+124333,ENG-8,English 8,Sem 2,54.9,
+124333,MATH-8,Math 8,Sem 1,57.1,
+124333,MATH-8,Math 8,Sem 2,58.5,
+124333,SCI-8,Science 8,Sem 1,52.0,
+124333,SCI-8,Science 8,Sem 2,63.2,
+124333,SS-8,Social Studies 8,Sem 1,55.7,
+124333,SS-8,Social Studies 8,Sem 2,51.3,
+124333,PE-8,Physical Education 8,Sem 1,62.2,
+124333,PE-8,Physical Education 8,Sem 2,60.3,
+124333,BAND-8,Band,Sem 1,60.7,
+124333,BAND-8,Band,Sem 2,69.8,
+101625,ENG-7,English 7,Sem 1,79.3,
+101625,ENG-7,English 7,Sem 2,73.0,
+101625,MATH-7,Math 7,Sem 1,70.4,
+101625,MATH-7,Math 7,Sem 2,76.3,
+101625,SCI-7,Science 7,Sem 1,87.5,
+101625,SCI-7,Science 7,Sem 2,81.3,
+101625,SS-7,Social Studies 7,Sem 1,69.2,
+101625,SS-7,Social Studies 7,Sem 2,76.1,
+101625,PE-7,Physical Education 7,Sem 1,76.2,
+101625,PE-7,Physical Education 7,Sem 2,76.2,
+101625,SPAN-7,Spanish I,Sem 1,82.0,
+101625,SPAN-7,Spanish I,Sem 2,78.6,
+125306,ENG-7,English 7,Sem 1,92.9,
+125306,ENG-7,English 7,Sem 2,84.8,
+125306,MATH-7,Math 7,Sem 1,98.1,
+125306,MATH-7,Math 7,Sem 2,82.9,
+125306,SCI-7,Science 7,Sem 1,86.6,
+125306,SCI-7,Science 7,Sem 2,88.0,
+125306,SS-7,Social Studies 7,Sem 1,86.0,
+125306,SS-7,Social Studies 7,Sem 2,89.0,
+125306,PE-7,Physical Education 7,Sem 1,77.3,
+125306,PE-7,Physical Education 7,Sem 2,95.6,
+125306,SPAN-7,Spanish I,Sem 1,86.1,
+125306,SPAN-7,Spanish I,Sem 2,97.4,
+118316,ENG-6,English 6,Sem 1,79.3,
+118316,ENG-6,English 6,Sem 2,84.7,
+118316,MATH-6,Math 6,Sem 1,76.0,
+118316,MATH-6,Math 6,Sem 2,87.7,
+118316,SCI-6,Science 6,Sem 1,101.3,
+118316,SCI-6,Science 6,Sem 2,91.4,
+118316,SS-6,Social Studies 6,Sem 1,75.6,
+118316,SS-6,Social Studies 6,Sem 2,86.2,
+118316,PE-6,Physical Education 6,Sem 1,88.9,
+118316,PE-6,Physical Education 6,Sem 2,77.3,
+118316,SPAN-6,Spanish I,Sem 1,90.3,
+118316,SPAN-6,Spanish I,Sem 2,83.4,
+126947,ENG-10,English 10,Sem 1,84.3,0.5
+126947,ENG-10,English 10,Sem 2,86.3,0.5
+126947,MATH-10,Geometry,Sem 1,80.7,0.5
+126947,MATH-10,Geometry,Sem 2,82.9,0.5
+126947,SCI-10,Chemistry,Sem 1,80.0,0.5
+126947,SCI-10,Chemistry,Sem 2,88.8,0.5
+126947,SS-10,World Geography,Sem 1,80.7,0.5
+126947,SS-10,World Geography,Sem 2,83.1,0.5
+126947,HLTH-10,Health,Sem 1,85.2,0.5
+126947,HLTH-10,Health,Sem 2,83.4,0.5
+126947,ORCH-10,Orchestra,Sem 1,85.3,0.5
+126947,ORCH-10,Orchestra,Sem 2,79.9,0.5
