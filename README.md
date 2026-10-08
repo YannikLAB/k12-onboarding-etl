@@ -87,9 +87,9 @@ All transformation logic is SQL (DuckDB). Python only runs the SQL files in orde
 
 ## Validation
 
-[`sql/11_validation.sql`](sql/11_validation.sql) runs 10 checks after every load, and the pipeline stops if any fail. They include one row per student, one row per student per month, every record linked to a known student and school, and a reconciliation of District A's attendance against the school calendar.
+[`sql/11_validation.sql`](sql/11_validation.sql) runs 10 checks after every load. If any fail, the pipeline stops with an error before exporting results. They include one row per student, one row per student per month, every record linked to a known student and school, and a reconciliation of District A's attendance against the school calendar.
 
-To test the tests, I deliberately reintroduced the duplicate student. The "one row per student per month" check still passed, because `GROUP BY` folded the doubled rows into one row with doubled counts. The calendar reconciliation caught it: that student suddenly had 364 attendance days in a 182-day year.
+To test the tests, I deliberately put the duplicate student back. Four checks failed, including the obvious one: one row per student. The instructive part was a check that passed. The monthly attendance table still had exactly one row per student per month, because `GROUP BY` folded the duplicated rows together. Inside those rows, the student's school days had quadrupled to 728 in a 182-day year (the duplicate multiplied rows at two different joins), while his absence rate stayed at 16.5%, because both sides of the fraction grew together. A table can look clean, and a percentage can look right, while the totals underneath are wrong. Comparing against an independent source, the school calendar, is what exposes it.
 
 ## Run it
 

@@ -27,12 +27,12 @@ print("\nVALIDATION CHECKS")
 con.sql("""SELECT CASE WHEN problems = 0 THEN 'PASS' ELSE 'FAIL' END AS result, check_name, problems
            FROM validation_results""").show(max_width=250)
 
+failed = con.sql("SELECT COUNT(*) FROM validation_results WHERE problems <> 0").fetchone()[0]
+if failed:
+    con.close()
+    sys.exit(f"\n{failed} validation check(s) FAILED. Nothing exported. Fix before using these numbers.")
+
 con.execute(f"COPY dq_log TO '{REPORTS}/dq_log.csv' (HEADER)")
 con.execute(f"COPY (SELECT * FROM v_school_summary) TO '{REPORTS}/school_summary.csv' (HEADER)")
-print(f"\nExported {REPORTS}/dq_log.csv and {REPORTS}/school_summary.csv")
-
-failed = con.sql("SELECT COUNT(*) FROM validation_results WHERE problems <> 0").fetchone()[0]
 con.close()
-if failed:
-    sys.exit(f"\n{failed} validation check(s) FAILED. Fix before using these numbers.")
-print("All validation checks passed.")
+print(f"\nAll validation checks passed. Exported {REPORTS}/dq_log.csv and {REPORTS}/school_summary.csv")

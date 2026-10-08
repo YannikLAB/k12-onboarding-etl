@@ -1,7 +1,7 @@
 """Quick query runner for testing SQL while you work.
 
 Usage (from the project root):
-    python q.py scratch.sql                         run the queries in a file
+    python q.py my_queries.sql                      run the queries in a .sql file
     python q.py "SELECT * FROM dq_log"              run a query typed inline
 
 Opens the database read-only, so it can't change anything.
