@@ -1,0 +1,10 @@
+# Local database built by run_pipeline.py: never commit it.
+# With real districts it would contain student records.
+data/processed/
+*.duckdb
+*.duckdb.wal
+
+# Python and tool caches
+__pycache__/
+.pytest_cache/
+.ruff_cache/
