@@ -9,12 +9,12 @@
 CREATE OR REPLACE TABLE a_grades_checked AS
 WITH typed AS (
     SELECT
-        Student_Number                                  AS local_student_number,
+        TRIM(Student_Number)                            AS local_student_number,
         TRIM(Course_Number)                             AS course_code,
         TRIM(Course_Name)                               AS course_name,
         regexp_extract(TRIM(Course_Number), '^[A-Z]+')  AS subject_code,   -- "ENG09" -> "ENG"
         StoreCode                                       AS term,           -- already S1 / S2
-        NULLIF(TRIM(Grade), '')                         AS grade_raw,      -- blank -> NULL
+        NULLIF(UPPER(TRIM(Grade)), '')                  AS grade_raw,      -- blank -> NULL; "b+" -> "B+"
         TRY_CAST(NULLIF(EarnedCrHrs, '') AS DOUBLE)     AS credits_earned
     FROM stg_a_grades
 )
@@ -32,6 +32,8 @@ SELECT
         ELSE LEFT(t.grade_raw, 1)                       -- "B+" -> "B", "D-" -> "D"
     END                                                 AS letter_grade,
     CASE
+        WHEN s.student_key IS NULL AND t.local_student_number IN (SELECT local_student_number FROM rejected_a_students)
+                                   THEN 'Student record was rejected'
         WHEN s.student_key IS NULL THEN 'Student not in students.csv'
         WHEN t.grade_raw IS NOT NULL AND t.grade_raw <> 'W'
          AND LEFT(t.grade_raw, 1) NOT IN ('A', 'B', 'C', 'D', 'F') THEN 'Unrecognized grade'

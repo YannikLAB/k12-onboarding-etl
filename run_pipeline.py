@@ -32,7 +32,10 @@ if failed:
     con.close()
     sys.exit(f"\n{failed} validation check(s) FAILED. Nothing exported. Fix before using these numbers.")
 
-con.execute(f"COPY dq_log TO '{REPORTS}/dq_log.csv' (HEADER)")
-con.execute(f"COPY (SELECT * FROM v_school_summary) TO '{REPORTS}/school_summary.csv' (HEADER)")
+# COPY can't take its file path as a query parameter. The path is a constant
+# defined above, never user input, so the scanner's SQL-injection warning
+# (bandit B608) doesn't apply here.
+con.execute(f"COPY dq_log TO '{REPORTS}/dq_log.csv' (HEADER)")  # nosec B608
+con.execute(f"COPY (SELECT * FROM v_school_summary) TO '{REPORTS}/school_summary.csv' (HEADER)")  # nosec B608
 con.close()
 print(f"\nAll validation checks passed. Exported {REPORTS}/dq_log.csv and {REPORTS}/school_summary.csv")

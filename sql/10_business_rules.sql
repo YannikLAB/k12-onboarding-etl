@@ -23,22 +23,51 @@ GROUP BY student_key;
 -- Excused, unexcused and suspension days all count; tardies don't.
 -- Students enrolled fewer than 10 days are excluded.
 -- Three possible answers, on purpose: TRUE, FALSE, or NULL (= we can't say).
+--
+-- attendance_band is the single source of truth for attendance. Both the
+-- staff rule (is_chronically_absent) and the family report read it, so
+-- they can never disagree. 'at risk' (5% to under 10%) is only used to
+-- choose the wording of family messages; it is not a state category.
 CREATE OR REPLACE VIEW v_chronic_absenteeism AS
+WITH base AS (
+    SELECT
+        st.student_key,
+        COALESCE(a.days_enrolled, 0)          AS days_enrolled,
+        COALESCE(a.days_absent, 0)            AS days_absent,
+        a.absence_rate_pct,
+        COALESCE(a.needs_review, FALSE)       AS attendance_needs_review
+    FROM dim_student st
+    LEFT JOIN v_student_attendance a ON a.student_key = st.student_key
+),
+banded AS (
+    SELECT
+        *,
+        -- 0.10 and 0.05 are exact decimals in DuckDB, so a student at exactly
+        -- 10% (e.g. 18 of 180 days) is compared without floating-point rounding.
+        CASE
+            WHEN attendance_needs_review                 THEN 'needs review'   -- bad source data: don't guess
+            WHEN days_enrolled = 0                       THEN 'no data'
+            WHEN days_enrolled < 10                      THEN 'too few days'   -- not enough days to judge
+            WHEN days_absent >= 0.10 * days_enrolled     THEN 'chronic'
+            WHEN days_absent >= 0.05 * days_enrolled     THEN 'at risk'
+            ELSE 'good'
+        END AS attendance_band
+    FROM base
+)
 SELECT
-    st.student_key,
-    COALESCE(a.days_enrolled, 0)                              AS days_enrolled,
-    a.days_absent,
-    a.absence_rate_pct,
-    COALESCE(a.days_enrolled, 0) >= 10                        AS is_eligible,
-    CASE
-        WHEN a.needs_review                   THEN NULL      -- bad source data: don't guess
-        WHEN COALESCE(a.days_enrolled, 0) < 10 THEN NULL      -- not enough days to judge
-        WHEN a.days_absent >= 0.10 * a.days_enrolled THEN TRUE -- multiply, don't divide: avoids rounding surprises
-        ELSE FALSE
-    END                                                       AS is_chronically_absent,
-    COALESCE(a.needs_review, FALSE)                           AS attendance_needs_review
-FROM dim_student st
-LEFT JOIN v_student_attendance a ON a.student_key = st.student_key;
+    student_key,
+    days_enrolled,
+    days_absent,
+    absence_rate_pct,
+    days_enrolled >= 10                                   AS is_eligible,
+    CASE attendance_band
+        WHEN 'chronic' THEN TRUE
+        WHEN 'at risk' THEN FALSE
+        WHEN 'good'    THEN FALSE
+    END                                                   AS is_chronically_absent,   -- NULL for the other bands
+    attendance_needs_review,
+    attendance_band
+FROM banded;
 
 -- RULE 2: Core course failure = an F in English, Math, Science or Social
 -- Studies in either semester. Withdrawn and not-yet-posted grades don't count.
@@ -69,6 +98,7 @@ SELECT
     ca.days_absent,
     ca.absence_rate_pct,
     ca.is_chronically_absent,
+    ca.attendance_band,
     f.core_failures,
     f.failed_courses,
     CASE

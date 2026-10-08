@@ -91,13 +91,26 @@ All transformation logic is SQL (DuckDB). Python only runs the SQL files in orde
 
 To test the tests, I deliberately put the duplicate student back. Four checks failed, including the obvious one: one row per student. The instructive part was a check that passed. The monthly attendance table still had exactly one row per student per month, because `GROUP BY` folded the duplicated rows together. Inside those rows, the student's school days had quadrupled to 728 in a 182-day year (the duplicate multiplied rows at two different joins), while his absence rate stayed at 16.5%, because both sides of the fraction grew together. A table can look clean, and a percentage can look right, while the totals underneath are wrong. Comparing against an independent source, the school calendar, is what exposes it.
 
+## Tests
+
+The checks above validate one dataset. The [`tests/`](tests) folder holds 30 automated tests that build tiny hand-made datasets (a few students each) and run the real SQL against them, so each rule is checked against an answer worked out by hand. They cover cases the sample data never triggers:
+
+- **Boundaries:** exactly 10% absent is chronic, 9.5% isn't, and students enrolled under 10 days aren't judged.
+- **Bad input:** an unreadable date, an unknown school name or an unreadable end date is set aside and logged instead of crashing the run or being guessed at.
+- **Rules:** tardies count as present, suspensions as absent, only an F in a core class counts as a core failure, and scores use each district's own scale.
+- **The family report:** every attendance message matches the SQL rule, and hostile text in names is escaped.
+- **The pipeline:** the "test the tests" experiment above runs automatically, and a failed check blocks the export.
+
 ## Run it
 
+Requires Python 3.10 or newer.
+
 ```
-pip install duckdb
-python run_pipeline.py      # builds the database, prints the data quality log and checks
-python build_reports.py     # writes sample family reports to reports/parent_reports/
+pip install -r requirements-dev.txt   # DuckDB and pytest, at the versions tested
+python run_pipeline.py                # builds the database, prints the data quality log and checks
+python build_reports.py               # writes sample family reports to reports/parent_reports/
 python q.py "SELECT * FROM v_school_summary"     # query the results
+python -m pytest                      # runs the test suite
 ```
 
 Run from the project root. `run_pipeline.py` executes every file in `sql/` in filename order and rebuilds from scratch each time.
@@ -116,6 +129,7 @@ sql/
 run_pipeline.py               runs the SQL, prints results, exports CSVs
 build_reports.py              family reports (HTML)
 q.py                          quick query helper
+tests/                        automated tests on small hand-made datasets
 data/raw/                     the two districts' exports and their notes
 reports/                      data quality log, school summary, sample reports
 ```

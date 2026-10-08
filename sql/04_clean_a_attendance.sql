@@ -11,23 +11,30 @@ INSERT INTO dq_log
 SELECT 'A', 'attendance.csv', 'Attendance codes in lowercase ("a" instead of "A")', COUNT(*),
        'fixed (converted to uppercase)', NULL
 FROM stg_a_attendance
-WHERE Att_Code <> UPPER(Att_Code);
+WHERE Att_Code <> UPPER(Att_Code)
+HAVING COUNT(*) > 0;
 
 CREATE OR REPLACE TABLE a_attendance_checked AS
 WITH typed AS (
     SELECT
-        Student_Number                              AS local_student_number,
-        strptime(Att_Date, '%m/%d/%Y')::DATE        AS att_date,
+        TRIM(Student_Number)                        AS local_student_number,
+        Att_Date                                    AS raw_att_date,
+        try_strptime(TRIM(Att_Date), '%m/%d/%Y')::DATE AS att_date,   -- unreadable -> NULL, not a crash
         UPPER(TRIM(Att_Code))                       AS att_code
     FROM stg_a_attendance
 )
 SELECT
     t.local_student_number,
     s.student_key,
+    t.raw_att_date,
     t.att_date,
     t.att_code,
-    -- First matching reason wins, so order matters: no student -> no school -> not enrolled.
+    -- First matching reason wins, so order matters:
+    -- unreadable date -> no student -> no school -> not enrolled -> bad code.
     CASE
+        WHEN t.att_date IS NULL                     THEN 'Unreadable date'
+        WHEN s.student_key IS NULL AND t.local_student_number IN (SELECT local_student_number FROM rejected_a_students)
+                                                    THEN 'Student record was rejected'
         WHEN s.student_key IS NULL                  THEN 'Student not in students.csv'
         WHEN c.is_school_day IS NOT TRUE            THEN 'Recorded on a non-school day'
         WHEN t.att_date < s.entry_date
@@ -52,6 +59,12 @@ SELECT
         WHEN 'Recorded outside enrollment dates'
             THEN 'Absences were recorded after student(s) ' || string_agg(DISTINCT local_student_number, ', ')
                  || ' withdrew. Did they re-enroll, or should these be removed?'
+        WHEN 'Unreadable date'
+            THEN 'These attendance dates could not be read: ' || string_agg(DISTINCT raw_att_date, ', ')
+                 || '. What should they be?'
+        WHEN 'Unknown attendance code'
+            THEN 'These attendance codes are not in your code list: ' || string_agg(DISTINCT att_code, ', ')
+                 || '. What do they mean?'
     END
 FROM a_attendance_checked
 WHERE reject_reason IS NOT NULL

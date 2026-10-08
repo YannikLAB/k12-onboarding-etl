@@ -23,7 +23,7 @@ HAVING COUNT(*) > 0;
 CREATE OR REPLACE TABLE b_grades_checked AS
 WITH typed AS (
     SELECT
-        studentNumber                                   AS local_student_number,
+        TRIM(studentNumber)                             AS local_student_number,
         courseCode                                      AS course_code,
         TRIM(courseName)                                AS course_name,
         split_part(courseCode, '-', 1)                  AS subject_code,   -- "ENG-9" -> "ENG"
@@ -46,6 +46,8 @@ SELECT
         ELSE 'F'
     END                                                 AS letter_grade,
     CASE
+        WHEN s.student_key IS NULL AND t.local_student_number IN (SELECT local_student_number FROM rejected_b_students)
+                                   THEN 'Student record was rejected'
         WHEN s.student_key IS NULL THEN 'Student not in enrollment.csv'
         WHEN t.term IS NULL        THEN 'Unknown term'
     END                                                 AS reject_reason

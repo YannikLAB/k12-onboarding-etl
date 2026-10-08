@@ -25,7 +25,7 @@ if not Path(DB_PATH).exists():
 con = duckdb.connect(DB_PATH, read_only=True)
 # Run each statement separately so every query's results get printed.
 for statement in sql.split(";"):
-    code_lines = [l for l in statement.splitlines() if l.strip() and not l.strip().startswith("--")]
+    code_lines = [line for line in statement.splitlines() if line.strip() and not line.strip().startswith("--")]
     if not code_lines:
         continue  # skip blanks and comment-only chunks
     print(f"\n>>> {code_lines[0].strip()}{' ...' if len(code_lines) > 1 else ''}")

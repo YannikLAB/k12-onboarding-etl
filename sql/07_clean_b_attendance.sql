@@ -9,7 +9,9 @@ INSERT INTO dq_log
 SELECT 'B', 'attendance_monthly.csv', 'School name spelled differently from the official name', COUNT(*),
        'fixed (mapped to official school)', NULL
 FROM stg_b_attendance
-WHERE schoolName NOT IN ('Juniper Canyon Middle School', 'Pinon Ridge High School');
+WHERE schoolName NOT IN ('Juniper Canyon Middle School', 'Pinon Ridge High School')
+  AND b_school_key(schoolName) IS NOT NULL      -- unknown names are rejected below, not "fixed"
+HAVING COUNT(*) > 0;
 
 -- The same student + month appearing more than once means a file was loaded twice.
 INSERT INTO dq_log
@@ -32,20 +34,26 @@ WITH deduped AS (
 ),
 typed AS (
     SELECT
-        studentNumber                               AS local_student_number,
+        TRIM(studentNumber)                         AS local_student_number,
+        schoolName                                  AS raw_school_name,
         b_school_key(schoolName)                    AS school_key,
         month,
-        daysEnrolled::INTEGER                       AS days_enrolled,
-        daysAbsentExcused::INTEGER                  AS days_absent_excused,
-        daysAbsentUnexcused::INTEGER                AS days_absent_unexcused   -- includes suspensions (per district notes)
+        -- TRY_CAST: a value like "n/a" becomes NULL and is rejected below, instead of crashing the run.
+        TRY_CAST(daysEnrolled AS INTEGER)           AS days_enrolled,
+        TRY_CAST(daysAbsentExcused AS INTEGER)      AS days_absent_excused,
+        TRY_CAST(daysAbsentUnexcused AS INTEGER)    AS days_absent_unexcused   -- includes suspensions (per district notes)
     FROM deduped
 )
 SELECT
     s.student_key,
     t.*,
     CASE
+        WHEN s.student_key IS NULL AND t.local_student_number IN (SELECT local_student_number FROM rejected_b_students)
+                                   THEN 'Student record was rejected'
         WHEN s.student_key IS NULL THEN 'Student not in enrollment.csv'
         WHEN t.school_key IS NULL  THEN 'Unknown school name'
+        WHEN t.days_enrolled IS NULL OR t.days_absent_excused IS NULL OR t.days_absent_unexcused IS NULL
+                                   THEN 'Unreadable numbers'
     END AS reject_reason,
     -- Impossible numbers are FLAGGED, not fixed or dropped: we can't know the
     -- true value, and dropping the month would make the student look better.
