@@ -2,6 +2,8 @@
 
 An ETL pipeline that takes two school districts' messy, mismatched data exports, loads them into one common data model, applies attendance and grading rules in SQL, and turns the results into plain-language reports for families.
 
+**Built with AI:** most of the code, tests and documentation were written by Claude (Anthropic's AI) at my direction. See [Notes](#notes) for who did what.
+
 <p align="center"><img src="reports/parent_report_preview.png" width="460" alt="Sample family report: attendance shown as one square per school day, final grades in plain words, and what would help"></p>
 <p align="center"><em>A generated family report. Each square is one school day; filled squares are days missed.</em></p>
 
@@ -34,9 +36,9 @@ Business rules (written as SQL views in [`sql/10_business_rules.sql`](sql/10_bus
 | Juniper Canyon Middle School | 71 | 15 (21.1%) | 11 | 55 | 6 | 10 | 0 |
 | Piñon Ridge High School | 89 | 16 (18.4%) | 17 | 67 | 8 | 12 | 2 |
 
-## Data quality: 17 issues found and handled
+## Data quality: 17 issues caught and handled
 
-Every issue is logged with a row count, what was done, and the question to send the district ([`reports/dq_log.csv`](reports/dq_log.csv)). Nothing is dropped silently: rejected rows are kept in `rejected_*` tables.
+The synthetic data was generated with these problems planted on purpose, to mimic what real district exports contain. Every issue is logged with a row count, what was done, and the question to send the district ([`reports/dq_log.csv`](reports/dq_log.csv)). Nothing is dropped silently: rejected rows are kept in `rejected_*` tables.
 
 | District | File | Issue | Rows | Action |
 |---|---|---|---|---|
@@ -89,7 +91,7 @@ All transformation logic is SQL (DuckDB). Python only runs the SQL files in orde
 
 [`sql/11_validation.sql`](sql/11_validation.sql) runs 10 checks after every load. If any fail, the pipeline stops with an error before exporting results. They include one row per student, one row per student per month, every record linked to a known student and school, and a reconciliation of District A's attendance against the school calendar.
 
-To test the tests, I deliberately put the duplicate student back. Four checks failed, including the obvious one: one row per student. The instructive part was a check that passed. The monthly attendance table still had exactly one row per student per month, because `GROUP BY` folded the duplicated rows together. Inside those rows, the student's school days had quadrupled to 728 in a 182-day year (the duplicate multiplied rows at two different joins), while his absence rate stayed at 16.5%, because both sides of the fraction grew together. A table can look clean, and a percentage can look right, while the totals underneath are wrong. Comparing against an independent source, the school calendar, is what exposes it.
+To test the tests, Claude deliberately put the duplicate student back. Four checks failed, including the obvious one: one row per student. The instructive part was a check that passed. The monthly attendance table still had exactly one row per student per month, because `GROUP BY` folded the duplicated rows together. Inside those rows, the student's school days had quadrupled to 728 in a 182-day year (the duplicate multiplied rows at two different joins), while his absence rate stayed at 16.5%, because both sides of the fraction grew together. A table can look clean, and a percentage can look right, while the totals underneath are wrong. Comparing against an independent source, the school calendar, is what exposes it.
 
 ## Tests
 
@@ -103,15 +105,19 @@ The checks above validate one dataset. The [`tests/`](tests) folder holds 30 aut
 
 ## Run it
 
-Requires Python 3.10 or newer.
+Requires Python 3.10 or newer. Tested on Python 3.10, 3.11, 3.12 and 3.13.
 
 ```
+python3 -m venv .venv                 # on Windows: py -m venv .venv
+source .venv/bin/activate             # on Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt   # DuckDB and pytest, at the versions tested
 python run_pipeline.py                # builds the database, prints the data quality log and checks
 python build_reports.py               # writes sample family reports to reports/parent_reports/
 python q.py "SELECT * FROM v_school_summary"     # query the results
 python -m pytest                      # runs the test suite
 ```
+
+The first two lines create a separate environment for the project's packages. Many systems, including macOS with Homebrew Python, refuse a plain `pip install` without one.
 
 Run from the project root. `run_pipeline.py` executes every file in `sql/` in filename order and rebuilds from scratch each time.
 
@@ -134,7 +140,7 @@ data/raw/                     the two districts' exports and their notes
 reports/                      data quality log, school summary, sample reports
 ```
 
-## Questions I'd send the districts
+## Questions for the districts
 
 - **District A:** Student(s) 131384 appear twice with different birth dates. Which is correct?
 - **District A:** Birth dates for student(s) 132581, 138406 look like placeholders or typos. What are the correct dates?
@@ -151,6 +157,6 @@ reports/                      data quality log, school summary, sample reports
 
 ## Notes
 
-- All data is synthetic, generated to mimic real student information system exports. No real students, schools or districts.
+- All data is synthetic, generated by Claude to mimic real student information system exports, including deliberately planted errors. No real students, schools or districts.
 - Reports use [Atkinson Hyperlegible](https://brailleinstitute.org/freefont), a typeface designed for readability, under the SIL Open Font License.
-- Built with AI pair-programming (Claude).
+- Claude (Anthropic's AI) wrote almost all of this project: the SQL, the Python, the tests, this README and the synthetic data. I chose the project and its ETL focus, ran the first exploration queries in SQL, and asked for the accuracy check and code review that led to the bug fixes and the test suite.

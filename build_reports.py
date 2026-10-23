@@ -265,6 +265,8 @@ def render(s, year):
 
 
 def main():
+    if not Path(DB_PATH).exists():
+        sys.exit("No database yet. Run first:  python run_pipeline.py")
     keys = sys.argv[1:] or SAMPLES
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     con = duckdb.connect(DB_PATH, read_only=True)
